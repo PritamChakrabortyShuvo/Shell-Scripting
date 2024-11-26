@@ -3,7 +3,7 @@ This documentation introduces the fundamentals of shell scripting, covering esse
 ## What is Shell Script?
 A shell script is a text file containing a sequence of shell commands. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
 <div align="center">
-    <img src="Diagrams/Shell-Script-Logo.png" alt="Project Logo" width=50%>
+    <img src="Diagrams/Script-Logo.png" alt="Project Logo" width=40%>
 </div>
 
 ## What is Shell Scripting?
