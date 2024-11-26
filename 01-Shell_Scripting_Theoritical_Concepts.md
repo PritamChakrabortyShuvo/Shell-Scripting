@@ -68,8 +68,8 @@ Now that our script is executable and located in a directory within our **`$PATH
 If everything is done correctly, the script should run and execute the commands within it.
 ## Best Practice for Script Name
 1. Give your Script a name that makes sense.
-    - **Good Example** - `create-and-launch`
+    - **Good Example** - `my-name`
     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
 2. Leave out **`.sh`** extension for executables.
-     - **Good Example** - `create-and-launch`
+     - **Good Example** - `my-name`
     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
