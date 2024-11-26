@@ -11,3 +11,8 @@ Shell scripting is a powerful way to automate tasks and streamline processes in 
 - **Periodic Monitoring** - Automatically check system health regularly.
 - **Alerts and Notifications** - Get alerts for issues like low disk space.
 - **Troubleshooting and Audits** - Identify problems and maintain logs.
+## Pre-Requisites 
+- Linux Basics.
+- Command Line Basics
+- No Programming Knowledge Required.
+
