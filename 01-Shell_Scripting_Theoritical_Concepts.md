@@ -19,4 +19,28 @@ Shell scripting is a powerful way to automate tasks and streamline processes in 
 - Linux Basics.
 - Command Line Basics
 - No Programming Knowledge Required.
+## First Script Example
+```bash
+    # 1. Create a Directory named First-Script
+    mkdir -p First-Script
 
+    # 2. Create a .sh file inside the directory
+    touch First-Script/hello_script.sh
+
+    # 3. Add a script to print "Hello Pritam"
+    echo 'echo "Hello Pritam"' > First-Script/hello_script.sh
+
+    # Make the new script executable
+    chmod +x First-Script/hello_script.sh
+
+    # Run the script
+    First-Script/hello_script.sh
+```
+### Explanation
+- **Create a Directory** - **`mkdir -p First-Script`** creates the directory if it doesn’t already exist.
+- **Create the .sh File** -  **`touch First-Script/hello_script.sh`** creates the script file inside the directory.
+- **Add Script Content** - **`echo 'echo "Hello Pritam"' > First-Script/hello_script.sh`** writes the print command into the script.
+- **Make It Executable** - **`chmod +x`** gives the script execution permissions.
+- **Run the Script** - Finally, the script is executed with **`First-Script/hello_script.sh`**.
+
+**Note**-The script will follow a serial order, executing each task in sequence, ensuring that each step is completed before moving to the next.
