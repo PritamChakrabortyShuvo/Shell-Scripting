@@ -46,19 +46,19 @@ Shell scripting is a powerful way to automate tasks and streamline processes in 
 **Note**-The script will follow a serial order, executing each task in sequence, ensuring that each step is completed before moving to the next.
 ## Run Script as Command
 ### Step 1 : Write the Script
-Create a script file named **`myscript`* without the **`.sh`**. Then write the following content
+Create a script file named **`my-name`* without the **`.sh`**. Then write the following content
 ```bash
     echo "Hello, This is Pritam!!"
 ```
 ### Step 2 : Make the Script Executable
 Use the **`chmod`** command to make the script executable.
 ```bash
-    chmod +x myscript
+    chmod +x my-name
 ```
 ### Step 3 : Move the Script to a Directory in the `$PATH`
 To run the script from anywhere, we need to place it in a directory that’s included in our **`$PATH`**. Common directories already in the **`$PATH`** include **`/usr/local/bin`** or **`/bin`**.
 ```bash
-    sudo mv myscript /usr/local/bin/
+    sudo mv my-name /usr/local/bin/
 ```
 ### Step 4 : Command Execution
 Now that our script is executable and located in a directory within our **`$PATH`**, we can run the script from any directory.
@@ -66,3 +66,10 @@ Now that our script is executable and located in a directory within our **`$PATH
     myscript
 ```
 If everything is done correctly, the script should run and execute the commands within it.
+## Best Practice
+1. Give your Script a name that makes sense.
+    - **Good Example** - `create-and-launch`
+    - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
+2. Leave out **`.sh`** extension for executables.
+     - **Good Example** - `create-and-launch`
+    - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
