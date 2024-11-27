@@ -124,3 +124,8 @@ A variable is a name used to store data or information. You can use it to hold v
     sum=$((x + y))
     echo "Sum: $sum"
 ```
+### Best Practice for Variables
+- Use meaningful names : `username`; `totalfiles`.
+- Variable names must be in lower-case with underscores to separate words : `user_name`; `total_files`.
+
+**Note** - Variables names are *Case Sensitive*.
