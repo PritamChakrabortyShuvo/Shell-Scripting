@@ -91,3 +91,28 @@ A variable is a name used to store data or information. You can use it to hold v
 ```output
     Hello, Pritam
 ```
+## Key Types of Variables
+### 1. Local Variables
+- Define within a script or shell session.
+- Exist only in the current context.
+```bash
+    message="Hello, World"
+    echo $message
+```
+### 2. Environment Variables
+- Predefined by the system (e.g., **`$HOME`**, **`$PATH`**).
+- Accessible to child processes.
+```bash
+    echo "Your home directory is $HOME"
+```
+### 3. Special Variables
+- Used for script arguments and system information.
+- Examples:
+    - **`$0`**: Name of the script.
+    - **`$1`**, **`$2`**, ... : Positional parameters (arguments to the script).
+    - **`$#`**: Number of arguments.
+    - **`$?`**: Exit status of the last command.
+```bash
+    echo "Script Name: $0"
+    echo "First Argument: $1"
+```
