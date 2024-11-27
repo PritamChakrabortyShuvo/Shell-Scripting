@@ -75,3 +75,19 @@ If everything is done correctly, the script should run and execute the commands 
     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
 # Variables
 A variable is a name used to store data or information. You can use it to hold values like text, numbers or commands, making your script dynamic and reusable.
+## How to Define Variables?
+- Variables are assigned using the **`=`** operator.
+- No spaces are allowed around the **`=`**.
+```bash
+    variable_name=value
+```
+## Accessing Variables
+- Use the **`$`** symbol to reference the variable.
+- Enclose the variable name in **`{}`** if it’s part of a larger string.
+```bash
+    name="Pritam"
+    echo "Hello, $name"
+```
+```output
+    Hello, Pritam
+```
