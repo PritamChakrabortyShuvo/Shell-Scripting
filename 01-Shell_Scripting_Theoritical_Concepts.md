@@ -116,3 +116,11 @@ A variable is a name used to store data or information. You can use it to hold v
     echo "Script Name: $0"
     echo "First Argument: $1"
 ```
+### Examples 
+1. **Arithmetic with Variables**
+```bash
+    x=10
+    y=5
+    sum=$((x + y))
+    echo "Sum: $sum"
+```
