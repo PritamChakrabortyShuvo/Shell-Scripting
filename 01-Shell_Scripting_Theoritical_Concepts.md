@@ -116,6 +116,11 @@ A variable is a name used to store data or information. You can use it to hold v
     echo "Script Name: $0"
     echo "First Argument: $1"
 ```
+### 4. Read-Only Variable
+Once you defined a variable and don't want to change it untill end of the script. To make a variable constant, use **`readonly`**.
+```bash
+    readonly pi=3.1416
+```
 ### Examples 
 1. **Arithmetic with Variables**
 ```bash
