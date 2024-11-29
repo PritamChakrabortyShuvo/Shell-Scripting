@@ -1,7 +1,7 @@
 # Mastering Shell Scripting Fundamentals
 This documentation introduces the fundamentals of **shell scripting**, **covering essential concepts**, **command** & **examples**. Learn how to automate tasks, manage systems & enhance productivity in Unix-based environments with variables, loops & functions.
 # What is Shell Script?
-A shell script is a text file containing a sequence of shell commands. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
+A **shell script is a text file** containing a **sequence of shell commands**. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
 <div align="center">
     <img src="Diagrams/Script-Logo.png" alt="Project Logo" width=20%>
 </div>
