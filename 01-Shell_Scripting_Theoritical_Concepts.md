@@ -12,11 +12,8 @@ A Linux shell is a command-line interpreter that processes user commands and scr
 
 # What is Shell Script?
 A **shell script is a text file** containing a **sequence of shell commands**. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
-
 # What is Shell Scripting?
-Shell scripting is a powerful way to automate tasks and streamline processes in Unix-based systems like Linux. It involves writing scripts using shell commands to perform a series of tasks.
-
-
+Shell Scripting is the process of writing and creating shell scripts. It involves using shell syntax and commands to develop automation scripts that perform tasks on the system. It involves writing scripts using shell commands to perform a series of tasks.
 # Why Use Shell Scripting?
 - **Automate Repetitive Tasks** - Save time by automating backups, installations, and updates.
 - **Simplify Commands** - Combine multiple commands into a single script.
