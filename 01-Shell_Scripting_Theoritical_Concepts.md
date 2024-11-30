@@ -4,17 +4,14 @@ This documentation introduces the fundamentals of **shell scripting**, **coverin
     <img src="Diagrams/Script-Logo.png" alt="Project Logo" width=30%>
 </div>
 
-# What is Shell Script?
-A **shell script is a text file** containing a **sequence of shell commands**. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
-<div align="center">
-    <img src="Diagrams/Architecture.png" alt="Project Logo" width=40%>
-</div>
-
 # What is Linux Shell?
 A Linux shell is a command-line interpreter that processes user commands and scripts, acting as an interface between the user and the operating system. Examples include **`bash`**, **`sh`** & **`zsh`**.
 <div align="center">
     <img src="Diagrams/Architecture.png" alt="Project Logo" width=40%>
 </div>
+
+# What is Shell Script?
+A **shell script is a text file** containing a **sequence of shell commands**. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
 
 # What is Shell Scripting?
 Shell scripting is a powerful way to automate tasks and streamline processes in Unix-based systems like Linux. It involves writing scripts using shell commands to perform a series of tasks.
