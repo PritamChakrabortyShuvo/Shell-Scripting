@@ -5,7 +5,7 @@ This documentation introduces the fundamentals of **shell scripting**, **coverin
 </div>
 
 # What is Linux Shell?
-A Linux shell is a command-line interpreter that processes user commands and scripts, acting as an interface between the user and the operating system. Examples include **`bash`**, **`sh`** & **`zsh`**.
+A Linux shell is a command-line interpreter that processes user commands and scripts, acting as an interface between the Applications and the Operating System. Examples include **`bash`**, **`sh`** & **`zsh`**.
 <div align="center">
     <img src="Diagrams/Architecture.png" alt="Project Logo" width=40%>
 </div>
@@ -25,6 +25,12 @@ Shell Scripting is the process of writing and creating shell scripts. It involve
 - Linux Basics.
 - Command Line Basics
 - No Programming Knowledge Required.
+# How to Check Shell Name?
+Open a terminal on Linux and run
+```bash
+    echo $0
+```
+The Output will show the **`bash`** name of Current Linux Operating System.
 # First Script Example
 ```bash
     # 1. Create a Directory named First-Script
