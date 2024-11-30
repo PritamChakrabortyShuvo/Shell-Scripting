@@ -8,7 +8,9 @@ This documentation introduces the fundamentals of **shell scripting**, **coverin
 A **shell script is a text file** containing a **sequence of shell commands**. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
 # What is Shell Scripting?
 Shell scripting is a powerful way to automate tasks and streamline processes in Unix-based systems like Linux. It involves writing scripts using shell commands to perform a series of tasks.
-
+<div align="center">
+    <img src="Diagrams/Architecture.png" alt="Project Logo" width=40%>
+</div>
 
 # Why Use Shell Scripting?
 - **Automate Repetitive Tasks** - Save time by automating backups, installations, and updates.
