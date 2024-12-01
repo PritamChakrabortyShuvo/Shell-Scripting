@@ -14,10 +14,10 @@ A Linux shell is a command-line interpreter that processes user commands and scr
 A **shell script is a text file** containing a **sequence of shell commands**. It is executed by a shell interpreter like **`bash`**, **`sh`** or **`zsh`**.
 # What is Shell Scripting?
 Shell Scripting is the process of writing and creating shell scripts. It involves using shell syntax and commands to develop automation scripts that perform tasks on the system. It involves writing scripts using shell commands to perform a series of tasks.
-# Why Use Shell Scripting?
-- **Automate Repetitive Tasks** - Save time by automating backups, installations, and updates.
+# Use Cases of Shell Scripting
+- **Automate Repetitive Tasks** - Save time by automating backups, installations & updates.
 - **Simplify Commands** - Combine multiple commands into a single script.
-- **System Administration** - Manage users, files, and services efficiently.
+- **System Administration** - Manage users, files & services efficiently.
 - **Periodic Monitoring** - Automatically check system health regularly.
 - **Alerts and Notifications** - Get alerts for issues like low disk space.
 - **Troubleshooting and Audits** - Identify problems and maintain logs.
@@ -31,23 +31,38 @@ Open a terminal on Linux and run
     echo $0
 ```
 The Output will show the **`bash`** name of Current Linux Operating System.
-# First Script Example
+# First Shell-Script
+Here are the steps to create and run your first shell script from scratch :
+## Step 1 : Create a Text Editor to Create a Script
 ```bash
-    # 1. Create a Directory named First-Script
-    mkdir -p First-Script
-
-    # 2. Create a .sh file inside the directory
-    touch First-Script/hello-script.sh
-
-    # 3. Add a script to print "Hello Pritam"
-    echo 'echo "Hello Pritam"' > First-Script/hello-script.sh
-
-    # Make the new script executable
-    chmod +x First-Script/hello-script.sh
-
-    # Run the script
-    First-Script/hello_script.sh
+    vim first-script.sh
 ```
+## Step 2 : Write the Following Content Inside the File
+```bash
+    echo "Hi, I am Pritam"
+    echo "This is my first script"
+    pwd
+    ls -l
+```
+Save & Exit.
+## Step 3 : Make the Script Executable 
+Change the script's permissions to make it executable
+```bash
+    chmod +x first-script.sh
+```
+## Step 4 : Run the Script
+```bash
+    ./first-script.sh
+```
+## Step 5 : Check the Output
+The output will be shown like this :
+```bash
+    Hi, I am Pritam
+    This is my first script
+    /home/username/my_first_script
+    total 4
+    -rwxr-xr-x 1 username username 84 Dec 1 15:25 first-script.sh
+
 ## Explanation
 - **Create a Directory** - **`mkdir -p First-Script`** creates the directory if it doesn’t already exist.
 - **Create the .sh File** -  **`touch First-Script/hello-script.sh`** creates the script file inside the directory.
@@ -85,6 +100,7 @@ If everything is done correctly, the script should run and execute the commands 
 2. Leave out **`.sh`** extension for executables.
      - **Good Example** - `my-name`
     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
+
 # Variables
 A variable is a name used to store data or information. You can use it to hold values like text, numbers or commands, making your script dynamic and reusable.
 ## How to Define Variables?
