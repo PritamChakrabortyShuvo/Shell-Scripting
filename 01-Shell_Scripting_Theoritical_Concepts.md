@@ -62,7 +62,7 @@ The output will be shown like this :
     This is my first script
     /home/username/my_first_script
     total 4
-    -rwxr-xr-x 1 username username 84 Dec 1 15:25 first-script.sh
+    -rwxr-xr-x 1 pritam pritam 66 Dec 1 15:28 first-script.sh
 ```
 # Best Practice for Script Name
 1. Give your Script a name that makes sense.
