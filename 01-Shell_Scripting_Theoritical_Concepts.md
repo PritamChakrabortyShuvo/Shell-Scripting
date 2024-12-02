@@ -103,6 +103,13 @@ For Python
 ```bash
     #!/usr/bin/python3
 ```
+### Example of a Python
+```bash
+    #!/usr/bin/python3
+    # Python code to print a name
+    print("Hi, I am Pritam")
+```
+**Note :** The script is saved with a **`.sh`** extension, but it behaves as a Python script due to the interpreter in the shebang.
 ## Why Shebang is Important?
 1. Using which avoids hardcoding incorrect or unavailable paths.
 2. The shebang ensures the script runs with the specified interpreter, even if another shell is active.
