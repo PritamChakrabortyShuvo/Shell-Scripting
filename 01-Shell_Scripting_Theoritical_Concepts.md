@@ -72,3 +72,5 @@ The output will be shown like this :
      - **Good Example** - `my-name`
     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
 
+# Shebang(#!) for Shell Scripting
+The shebang (**`#!`**) is the first line in a shell script that specifies the interpreter to execute the script.
