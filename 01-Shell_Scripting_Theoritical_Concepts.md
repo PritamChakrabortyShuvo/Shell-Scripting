@@ -103,7 +103,7 @@ For Python
 ```bash
     #!/usr/bin/python3
 ```
-### Example of a Python
+### Example of a Python Script
 ```bash
     #!/usr/bin/python3
     # Python code to print a name
