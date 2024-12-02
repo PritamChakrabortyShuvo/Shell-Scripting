@@ -73,4 +73,37 @@ The output will be shown like this :
     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
 
 # Shebang(#!) for Shell Scripting
-The shebang (**`#!`**) is the first line in a shell script that specifies the interpreter to execute the script.
+The shebang (**`#!`**) is the first line in a shell script that specifies the interpreter to execute the script. It tells the system which shell or interpreter to use for executing the script.
+## Syntax 
+```bash 
+    #!/path/to/interpreter
+```
+The **`#!`** is followed by the Absolute Path of the interpreter.
+## Examples 
+### 1. Use **`which`** to find the interpreter's path 
+```bash
+    which bash
+```
+Or,
+```bash
+    which python3
+```
+### 2. Add the Path of Interpreter as Shebang to the Script
+If you're using **`bash`** your script starts with :
+```bash
+    #!/bin/bash 
+```
+**`bash`** is default on most Linux Systems.
+
+If using zsh, your script starts with :
+```bash
+    #!/bin/zsh
+```
+For Python
+```bash
+    #!/usr/bin/python3
+```
+## Why Shebang is Important?
+1. Using which avoids hardcoding incorrect or unavailable paths.
+2. The shebang ensures the script runs with the specified interpreter, even if another shell is active.
+3. Makes the script portable across systems with the same interpreter.
