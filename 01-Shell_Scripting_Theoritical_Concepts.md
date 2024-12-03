@@ -115,7 +115,7 @@ For Python
 2. The shebang ensures the script runs with the specified interpreter, even if another shell is active.
 3. Makes the script portable across systems with the same interpreter.
 
-# Built-In 
+# Built-Ins
 - **Definition** - Commands integrated directly into the shell (e.g., **`bash`**, **`zsh`**)
 - **Execution** - Run by the shell itself not external programs, making them faster.
 - **Storage** - Part of the shell's binary (e.g., **`/bin/bash`** or **`/usr/bin/zsh`**) and do not exist as standalone files.
@@ -124,3 +124,12 @@ For Python
     - **`cd`** - Changes directories.
     - **`export`** - Sets environment variables.
     - **`alias`** - Creates shortcuts for commands.
+# Keywords
+- **Definition** - Reserved words with special meanings in shell scripting, used to define the structure of scripts.
+- **Usage** - Cannot be used as variable names or redefined.
+- **Storage** - Keywords are hardcoded in the shell's binary and are not standalone files.
+- **Examples**-
+    - **`if, else, fi`** - Used for conditional execution.
+    - **`for, while, do, done`** - Loop control.
+    - **`function`** - Defines a reusable block of code.
+    - **`case, esac`** - Multi-condition branching.
