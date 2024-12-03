@@ -133,3 +133,16 @@ For Python
     - **`for, while, do, done`** - Loop control.
     - **`function`** - Defines a reusable block of code.
     - **`case, esac`** - Multi-condition branching.
+# Commands
+- **Definition** - Instructions that perform specific tasks, either built-in or external programs.
+- **Types and Storage** -
+    - **Internal Commands** - Built into the shell, stored within the shell binary.
+    - **External Commands** - Executable files located in system directories.
+- **Common Storage Locations** -
+    - **`/bin`** - Essential binaries (e.g., **`ls`**, **`pwd`**, **`cp`**).
+    - **`/usr/bin`** - Additional user binaries (e.g., **`grep`**, **`curl`**, **`vim`**).
+    - **`/usr/local/bin`** - User-installed binaries.
+- **Examples** -
+    - **`ls`** - **`/bin/ls`** - Lists directory contents.
+    - **`grep`** - **`/usr/bin/grep`** - Searches for patterns in text.
+    - **`curl`** - **`/usr/bin/curl`** - Transfers data from or to a server.
