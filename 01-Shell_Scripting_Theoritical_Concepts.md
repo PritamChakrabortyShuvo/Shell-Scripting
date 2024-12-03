@@ -146,3 +146,17 @@ For Python
     - **`ls`** - **`/bin/ls`** - Lists directory contents.
     - **`grep`** - **`/usr/bin/grep`** - Searches for patterns in text.
     - **`curl`** - **`/usr/bin/curl`** - Transfers data from or to a server.
+
+# Print Hello Message is Different Color
+"Hello, World!" in different colors using shell scripting :
+```bash
+    #!/bin/bash
+
+    # Print "Hello, World!" in different colors
+    echo -e "\033[31mHello, World! in Red\033[0m"
+    echo -e "\033[32mHello, World! in Green\033[0m"
+    echo -e "\e[33mHello, World! in Yellow\e[0m"
+    echo -e "\e[34mHello, World! in Blue\e[0m"
+    echo -e "\e[35mHello, World! in Magenta\e[0m"
+    echo -e "\e[36mHello, World! in Cyan\e[0m"
+```
