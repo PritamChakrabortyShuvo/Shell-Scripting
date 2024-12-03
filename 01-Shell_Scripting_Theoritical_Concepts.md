@@ -160,3 +160,12 @@ For Python
     echo -e "\e[35mHello, World! in Magenta\e[0m"
     echo -e "\e[36mHello, World! in Cyan\e[0m"
 ```
+## Explanation
+1. **`\e`** -
+- Represents the **`escape character`**.
+- Equivalent to **`ESC`** in **ASCII**, which initiates an ANSI escape sequence.
+- Can also be written as **`\033`**.
+2. **`[Nm`** - 
+- The code that specifies the desired formatting.
+- **`N`** indicates the foreground color.
+- **`m`** marks the end of the sequence and applies the effect.
