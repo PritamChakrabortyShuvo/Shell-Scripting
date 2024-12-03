@@ -169,3 +169,12 @@ For Python
 - The code that specifies the desired formatting.
 - **`N`** indicates the foreground color.
 - **`m`** marks the end of the sequence and applies the effect.
+## Color Codes for Foreground Text
+- **`30`**	**Black**	\e[30mHello\e[0m
+- **`31`**	**Red**	    \e[31mHello\e[0m
+- **`32`**	**Green**	\e[32mHello\e[0m
+- **`33`**	**Yellow**	\e[33mHello\e[0m
+- **`34`**	**Blue**	\e[34mHello\e[0m
+- **`35`**	**Magenta**	\e[35mHello\e[0m
+- **`36`**	**Cyan**	\e[36mHello\e[0m
+- **`37`**	**White**   \e[37mHello\e[0m
