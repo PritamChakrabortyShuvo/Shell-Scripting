@@ -114,3 +114,13 @@ For Python
 1. Using which avoids hardcoding incorrect or unavailable paths.
 2. The shebang ensures the script runs with the specified interpreter, even if another shell is active.
 3. Makes the script portable across systems with the same interpreter.
+
+# Built-In 
+- **Definition** - Commands integrated directly into the shell (e.g., **`bash`**, **`zsh`**)
+- **Execution** - Run by the shell itself not external programs, making them faster.
+- **Storage** - Part of the shell's binary (e.g., **`/bin/bash`** or **`/usr/bin/zsh`**) and do not exist as standalone files.
+- **Examples**-
+    - **`echo`** - Prints text to the terminal.
+    - **`cd`** - Changes directories.
+    - **`export`** - Sets environment variables.
+    - **`alias`** - Creates shortcuts for commands.
