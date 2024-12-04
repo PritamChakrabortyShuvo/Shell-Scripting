@@ -178,3 +178,9 @@ For Python
 - **`35`**	**Magenta**	\e[35mHello\e[0m
 - **`36`**	**Cyan**	\e[36mHello\e[0m
 - **`37`**	**White**   \e[37mHello\e[0m
+# Comments
+Comments are lines of text ignored by the shell during script execution. They are used to explain the code making it easier to understand & maintain.
+
+There are 2 Types of Comments :
+1. Single-Line Comment
+2. Multi-Line Comment
