@@ -146,38 +146,6 @@ For Python
     - **`ls`** - **`/bin/ls`** - Lists directory contents.
     - **`grep`** - **`/usr/bin/grep`** - Searches for patterns in text.
     - **`curl`** - **`/usr/bin/curl`** - Transfers data from or to a server.
-
-# Print Hello Message is Different Color
-"Hello, World!" in different colors using shell scripting :
-```bash
-    #!/bin/bash
-
-    # Print "Hello, World!" in different colors
-    echo -e "\033[31mHello, World! in Red\033[0m"
-    echo -e "\033[32mHello, World! in Green\033[0m"
-    echo -e "\e[33mHello, World! in Yellow\e[0m"
-    echo -e "\e[34mHello, World! in Blue\e[0m"
-    echo -e "\e[35mHello, World! in Magenta\e[0m"
-    echo -e "\e[36mHello, World! in Cyan\e[0m"
-```
-## Explanation
-1. **`\e`** -
-- Represents the **`escape character`**.
-- Equivalent to **`ESC`** in **ASCII**, which initiates an ANSI escape sequence.
-- Can also be written as **`\033`**.
-2. **`[Nm`** - 
-- The code that specifies the desired formatting.
-- **`N`** indicates the foreground color.
-- **`m`** marks the end of the sequence and applies the effect.
-## Color Codes for Foreground Text
-- **`30`**	**Black**	\e[30mHello\e[0m
-- **`31`**	**Red**	    \e[31mHello\e[0m
-- **`32`**	**Green**	\e[32mHello\e[0m
-- **`33`**	**Yellow**	\e[33mHello\e[0m
-- **`34`**	**Blue**	\e[34mHello\e[0m
-- **`35`**	**Magenta**	\e[35mHello\e[0m
-- **`36`**	**Cyan**	\e[36mHello\e[0m
-- **`37`**	**White**   \e[37mHello\e[0m
 # Comments
 Comments are lines of text ignored by the shell during script execution. They are used to explain the code making it easier to understand & maintain.
 
@@ -233,3 +201,41 @@ Ensures that escape sequences are treated as plain text
 ```bash
     echo -E "Hello\nWorld!"  # Prints: Hello\nWorld!
 ```
+## Using Special Characters
+### 1. Newline
+```bash 
+    echo -e "Line1\nLine2"
+```
+### 2. Tab 
+```bash 
+    echo -e "Column1\tColumn2"
+```
+### 3. Backlash 
+```bash 
+    echo -e "This is a backslash: \\"
+```
+### 4. Alert (Beep)
+```bash 
+    echo -e "\aThis triggers a beep sound."
+```
+### 5. Colored Text (ANSI Codes)
+```bash
+    #!/bin/bash
+
+    # Print "Hello, World!" in different colors
+    echo -e "\033[31mHello, World! in Red\033[0m"
+    echo -e "\033[32mHello, World! in Green\033[0m"
+    echo -e "\e[33mHello, World! in Yellow\e[0m"
+    echo -e "\e[34mHello, World! in Blue\e[0m"
+    echo -e "\e[35mHello, World! in Magenta\e[0m"
+    echo -e "\e[36mHello, World! in Cyan\e[0m"
+```
+**Color Codes for Foreground Text**
+- **`30`**	**Black**	\e[30mHello\e[0m
+- **`31`**	**Red**	    \e[31mHello\e[0m
+- **`32`**	**Green**	\e[32mHello\e[0m
+- **`33`**	**Yellow**	\e[33mHello\e[0m
+- **`34`**	**Blue**	\e[34mHello\e[0m
+- **`35`**	**Magenta**	\e[35mHello\e[0m
+- **`36`**	**Cyan**	\e[36mHello\e[0m
+- **`37`**	**White**   \e[37mHello\e[0m
