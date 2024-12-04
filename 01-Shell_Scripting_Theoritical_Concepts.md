@@ -193,7 +193,7 @@ There are 2 Types of Comments :
     echo "Hello, World!"  # This prints a message
 ```
 ## Multi Line Comment
-Use **<<Anything** & Anything to enclose multiple lines. The important part is that the same identifier must be used to open and close the block.
+Use **`<<Anything`** & Anything to enclose multiple lines. The important part is that the same identifier must be used to open and close the block.
 ### Multi Line Comment Example 
 ```bash
     <<Start
@@ -201,4 +201,18 @@ Use **<<Anything** & Anything to enclose multiple lines. The important part is t
     It can span multiple lines.
     Start
 ```
-
+### Important Terminology for Multi Line Comment
+- The identifier must be consistent and unique within the script.
+- Anything between the opening and closing identifiers will be treated as part of the here-document.
+- Here-documents are not comments by design, but when used without being redirected (**`>`** or **`<`**), they effectively act as multi-line comments.
+# `echo` Command
+The **`echo`** command is used to display text or output strings in the terminal. It has various options to handle formatting, escape sequences & other customizations. Below are all the common types and usage of the echo command.
+## Basic Usage 
+### 1. Print a Simple String 
+```bash 
+    echo "Hello, World!"
+```
+### 2. Print without Quotes 
+```bash 
+    echo Hello, World!
+```
