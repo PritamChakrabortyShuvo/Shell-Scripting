@@ -239,3 +239,12 @@ Ensures that escape sequences are treated as plain text
 - **`35`**	**Magenta**	\e[35mHello\e[0m
 - **`36`**	**Cyan**	\e[36mHello\e[0m
 - **`37`**	**White**   \e[37mHello\e[0m
+## Command Substitution
+### 1. Print Command Output
+```bash 
+    echo "The current directory is: $(pwd)"
+```
+### 2. Inline Math
+```bash 
+    echo "The sum of 5 + 3 is: $((5 + 3))"
+```
