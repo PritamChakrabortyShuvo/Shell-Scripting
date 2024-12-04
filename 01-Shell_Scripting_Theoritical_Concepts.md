@@ -257,3 +257,13 @@ Ensures that escape sequences are treated as plain text
 ```bash 
     echo "Adding this line" >> file.txt
 ```
+## Summary Table
+| **Option/Usage**     | **Description**                        | **Example**                    |
+|-----------------------|----------------------------------------|--------------------------------|
+| `echo "text"`         | Print a simple string                 | `echo "Hello"`                |
+| `-n`                 | Suppress newline                      | `echo -n "Hello"`             |
+| `-e`                 | Enable escape sequences               | `echo -e "Line1\nLine2"`      |
+| `-E`                 | Disable escape sequences              | `echo -E "Line\nTab"`         |
+| Redirect `>`         | Write output to a file                | `echo "Text" > file.txt`      |
+| Append `>>`          | Append output to a file               | `echo "More" >> file.txt`     |
+| Command substitution | Print the result of a command          | `echo $(pwd)`                 |
