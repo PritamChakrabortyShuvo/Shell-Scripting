@@ -258,12 +258,12 @@ Ensures that escape sequences are treated as plain text
     echo "Adding this line" >> file.txt
 ```
 ## Summary Table
-| **Option/Usage**     | **Description**                        | **Example**                    |
-|-----------------------|----------------------------------------|--------------------------------|
-| `echo "text"`         | Print a simple string                 | `echo "Hello"`                |
-| `-n`                 | Suppress newline                      | `echo -n "Hello"`             |
-| `-e`                 | Enable escape sequences               | `echo -e "Line1\nLine2"`      |
-| `-E`                 | Disable escape sequences              | `echo -E "Line\nTab"`         |
-| Redirect `>`         | Write output to a file                | `echo "Text" > file.txt`      |
-| Append `>>`          | Append output to a file               | `echo "More" >> file.txt`     |
-| Command substitution | Print the result of a command          | `echo $(pwd)`                 |
+| **Option/Usage**     | **Description**                        | **Example**                    | **Output**                    |
+|-----------------------|----------------------------------------|--------------------------------|--------------------------------|
+| `echo "text"`         | Print a simple string                 | `echo "Hello"`                | `Hello`                       |
+| `-n`                 | Suppress newline                      | `echo -n "Hello"`             | `Hello` (no newline after)    |
+| `-e`                 | Enable escape sequences               | `echo -e "Line1\nLine2"`      | `Line1`<br>`Line2`            |
+| `-E`                 | Disable escape sequences              | `echo -E "Line\nTab"`         | `Line\nTab`                   |
+| Redirect `>`         | Write output to a file                | `echo "Text" > file.txt`      | (Content saved to file)       |
+| Append `>>`          | Append output to a file               | `echo "More" >> file.txt`     | (Content appended to file)    |
+| Command substitution | Print the result of a command          | `echo $(pwd)`                 | Current directory path        |
