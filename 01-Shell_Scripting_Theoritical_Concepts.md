@@ -248,3 +248,12 @@ Ensures that escape sequences are treated as plain text
 ```bash 
     echo "The sum of 5 + 3 is: $((5 + 3))"
 ```
+## Redirecting Output
+### 1. To a File
+```bash 
+    echo "Saving this to a file.txt" > file.txt
+```
+### 2. Appending to a File
+```bash 
+    echo "Adding this line" >> file.txt
+```
