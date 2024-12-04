@@ -216,3 +216,20 @@ The **`echo`** command is used to display text or output strings in the terminal
 ```bash 
     echo Hello, World!
 ```
+## Options with `echo`
+### 1. Newline Suppression (`-n`)
+Prevents the newline at the end of the output.
+```bash 
+    echo -n "Hello, World!"
+```
+### 2. Enable Escape Sequences (`-e`)
+Enables special characters like **`\n`**, **`\t`** and others
+```bash 
+    echo -e "Hello\nWorld!"  # Adds a newline
+    echo -e "Column1\tColumn2"  # Adds a tab
+```
+### 3. Disable Escape Sequences (`-E`)
+Ensures that escape sequences are treated as plain text
+```bash
+    echo -E "Hello\nWorld!"  # Prints: Hello\nWorld!
+```
