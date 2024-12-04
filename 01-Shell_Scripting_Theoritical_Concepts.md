@@ -192,3 +192,13 @@ There are 2 Types of Comments :
     # This is a single-line comment
     echo "Hello, World!"  # This prints a message
 ```
+## Multi Line Comment
+Use **<<Anything** & Anything to enclose multiple lines. The important part is that the same identifier must be used to open and close the block.
+### Multi Line Comment Example 
+```bash
+    <<Start
+    This is a multi-line comment.
+    It can span multiple lines.
+    Start
+```
+
