@@ -184,3 +184,11 @@ Comments are lines of text ignored by the shell during script execution. They ar
 There are 2 Types of Comments :
 1. Single-Line Comment
 2. Multi-Line Comment
+## Single Line Comment
+- Begin with the **`#`** symbol.
+- Everything after **`#** on the same line is treated as a comment.
+### Single Line Comment Example 
+```bash
+    # This is a single-line comment
+    echo "Hello, World!"  # This prints a message
+```
