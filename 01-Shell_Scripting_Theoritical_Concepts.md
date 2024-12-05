@@ -267,3 +267,6 @@ Ensures that escape sequences are treated as plain text
 | Redirect `>`         | Write output to a file                | `echo "Text" > file.txt`      | (Content saved to file)       |
 | Append `>>`          | Append output to a file               | `echo "More" >> file.txt`     | (Content appended to file)    |
 | Command substitution | Print the result of a command          | `echo $(pwd)`                 | Current directory path        |
+# Variables 
+A variable in scripting is a symbolic name used to store data or information. It allows scripts to manage dynamic values and reuse them throughout the program. Variables make scripts flexible, allowing customization without modifying the code repeatedly.
+
