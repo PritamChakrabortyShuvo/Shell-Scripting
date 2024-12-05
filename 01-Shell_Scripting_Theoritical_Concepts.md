@@ -295,3 +295,9 @@ Use the **`$`** symbol
     echo "I am $AGE years old."
     echo "$MESSAGE"
 ```
+### Use of Curly Braces "`{}`"
+To avoid confusion or ambiguity when concatenating.
+```bash 
+    name="Shuvo"
+    echo "My Name is Pritam{$name}"
+```
