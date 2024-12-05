@@ -269,4 +269,29 @@ Ensures that escape sequences are treated as plain text
 | Command substitution | Print the result of a command          | `echo $(pwd)`                 | Current directory path        |
 # Variables 
 A variable in scripting is a symbolic name used to store data or information. It allows scripts to manage dynamic values and reuse them throughout the program. Variables make scripts flexible, allowing customization without modifying the code repeatedly.
+## 1. User-Defined Variables
+A user-defined variable is a custom variable created by the user to store data or values that can be used within a script.
+### a. Defining a Variable
+```bash
+    name=value
+```
+**Note** - No spaces around the **`=`** sign.
+### b. Accessing a Variable
+Use the **`$`** symbol
+```bash 
+    echo $name
+```
+### Example
+```bash 
+    #!/bin/bash
 
+    # Define variables
+    NAME="Pritam"
+    AGE=25
+    MESSAGE="Welcome to shell scripting!"
+
+    # Use variables
+    echo "My name is $NAME."
+    echo "I am $AGE years old."
+    echo "$MESSAGE"
+```
