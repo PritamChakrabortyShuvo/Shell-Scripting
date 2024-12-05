@@ -301,3 +301,11 @@ To avoid confusion or ambiguity when concatenating.
     name="Shuvo"
     echo "My Name is Pritam{$name}"
 ```
+## Rules for Naming Variable
+- Must start with a letter or **`_`** (underscore).
+- Can contain letters, numbers, and underscores (**`A-Z`**, **`a-z`**, **`0-9`**, **`_`**).
+- Case-sensitive (**`NAME`** & **`name`** are different).
+- Avoid using shell reserved words (e.g., **`if`**, **`then`**, **`else`**).
+- Variables name cannot have Whitespace between.
+- Variable name can not have special characters.
+- The first character of the variable name cannot be a number.
