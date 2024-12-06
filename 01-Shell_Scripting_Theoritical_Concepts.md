@@ -311,3 +311,6 @@ To avoid confusion or ambiguity when concatenating.
 - The first character of the variable name cannot be a number.
 ## 2. Environment Variables
 Environment variables are key-value pairs stored in the operating system's environment. They provide information that applications and scripts can use to configure their behavior or interact with the system.
+### Key Features of Environment Variables
+1. **Global Scope** : Accessible to all processes and subshells.
+2. **System-Wide or User-Specific** : Defined for the entire system or individual users.
