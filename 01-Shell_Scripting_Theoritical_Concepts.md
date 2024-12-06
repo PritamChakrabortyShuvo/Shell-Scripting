@@ -314,3 +314,23 @@ Environment variables are key-value pairs stored in the operating system's envir
 ### Key Features of Environment Variables
 1. **Global Scope** : Accessible to all processes and subshells.
 2. **System-Wide or User-Specific** : Defined for the entire system or individual users.
+### Common Environment Variables
+- **`$HOME**`: User's home directory.
+- **`$PATH**`: Directories searched for executable files.
+- **`$USER**`: Logged-in username.
+- **`$SHELL**`: The default shell for the user.
+- **`$LANG**`: Language/locale settings.
+- **`$UID**`: User ID of the current user.
+- **`$PWD**`: Current working directory.
+- **`$OLDPWD`**: Previous working directory.
+- **`$LOGNAME`**: Logged-in username.
+- **`$HOSTNAME`**: Hostname of the system.
+- **`$TERM`**: Terminal type.
+- **`$TMPDIR`**: Path to temporary directory.
+- **`$DISPLAY`**: Specifies the display screen for GUI applications.
+- **`$LANGUAGE`**: Fallback language for messages.
+- **`$SHLVL`**: Current shell level.
+- **`$RANDOM`**: Generates a random number.
+- **`$PS1`**: Primary prompt string.
+- **`$PPID`**: Parent process ID of the current shell.
+- **`$0`**: Name of the current script or shell.
