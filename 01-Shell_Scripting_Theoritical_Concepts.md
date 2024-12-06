@@ -309,3 +309,5 @@ To avoid confusion or ambiguity when concatenating.
 - Variables name cannot have Whitespace between.
 - Variable name can not have special characters.
 - The first character of the variable name cannot be a number.
+## 2. Environment Variables
+Environment variables are key-value pairs stored in the operating system's environment. They provide information that applications and scripts can use to configure their behavior or interact with the system.
