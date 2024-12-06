@@ -315,13 +315,13 @@ Environment variables are key-value pairs stored in the operating system's envir
 1. **Global Scope** : Accessible to all processes and subshells.
 2. **System-Wide or User-Specific** : Defined for the entire system or individual users.
 ### Common Environment Variables
-- **`$HOME**`: User's home directory.
-- **`$PATH**`: Directories searched for executable files.
-- **`$USER**`: Logged-in username.
-- **`$SHELL**`: The default shell for the user.
-- **`$LANG**`: Language/locale settings.
-- **`$UID**`: User ID of the current user.
-- **`$PWD**`: Current working directory.
+- **`$HOME**`**: User's home directory.
+- **`$PATH**`**: Directories searched for executable files.
+- **`$USER**`**: Logged-in username.
+- **`$SHELL`**: The default shell for the user.
+- **`$LANG**`**: Language/locale settings.
+- **`$UID**`**: User ID of the current user.
+- **`$PWD**`**: Current working directory.
 - **`$OLDPWD`**: Previous working directory.
 - **`$LOGNAME`**: Logged-in username.
 - **`$HOSTNAME`**: Hostname of the system.
@@ -334,3 +334,23 @@ Environment variables are key-value pairs stored in the operating system's envir
 - **`$PS1`**: Primary prompt string.
 - **`$PPID`**: Parent process ID of the current shell.
 - **`$0`**: Name of the current script or shell.
+- **`$EDITOR`**: Default text editor.
+- **`$MAIL`**: Location of the user's mail directory.
+- **`$MANPATH`**: Directories searched for manual pages.
+- **`$PROMPT_COMMAND`**: Command executed before displaying the prompt.
+- **`$COLUMNS`**: Number of columns in the terminal window.
+- **`$LINES`**: Number of lines in the terminal window.
+- **`$XDG_CONFIG_HOME`**: User-specific configuration files directory.
+- **`$XDG_DATA_HOME`**: User-specific data files directory.
+- **`$XDG_RUNTIME_DIR`**: User-specific runtime files and socket directory.
+- **`$PATH_SEPARATOR`**: Character separating paths in $PATH.
+- **`$SUDO_USER`**: User who invoked sudo.
+- **`$SUDO_UID`**: User ID of the invoking user.
+- **`$SUDO_GID`**: Group ID of the invoking user.
+- **`$HISTFILE`**: Location of the shell history file.
+- **`$HISTSIZE`**: Number of commands stored in history for the session.
+- **`$HISTFILESIZE`**: Maximum number of commands stored in the history file.
+- **`$TZ`**: Time zone setting.
+- **`$LC_TIME`**: Locale settings for date and time formats.
+- **`$LC_MESSAGES`**: Locale settings for system messages.
+- **`$SESSION_MANAGER`**: Session manager information for GUI sessions.
