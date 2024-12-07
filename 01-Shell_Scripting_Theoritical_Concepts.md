@@ -356,3 +356,14 @@ Environment variables are key-value pairs stored in the operating system's envir
 - **`$SESSION_MANAGER`**: Session manager information for GUI sessions.
 # Taking Input from User
 The **`read`** command is used in shell scripts to take input from the user. It allows you to prompt the user for data and store it in a variable for later use.
+## Syntax of `read`
+```bash
+    read [options] variable_name
+```
+## Basic Input 
+```bash
+    #!/bin/bash
+    echo "Enter your name:"
+    read name
+    echo "Hello, $name!"
+```
