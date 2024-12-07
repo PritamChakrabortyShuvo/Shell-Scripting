@@ -367,3 +367,10 @@ The **`read`** command is used in shell scripts to take input from the user. It 
     read name
     echo "Hello, $name!"
 ```
+## Input with a Prompt
+Using the **`-p`** option allows you to display a prompt on the same line as the input request :
+```bash
+    #!/bin/bash
+    read -p "Enter your age: " age
+    echo "You are $age years old."
+```
