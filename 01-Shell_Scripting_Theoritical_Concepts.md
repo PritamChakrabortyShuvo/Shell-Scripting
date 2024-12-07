@@ -390,3 +390,19 @@ Or,
     echo
     echo "Password received!"
 ```
+## Read Multiple Inputs
+You can read multiple inputs at once and store them in separate variables :
+```bash
+    #!/bin/bash
+    read -p "Enter your first name: " first_name
+    read -p "Enter your last name: " last_name
+    echo "Your full name is $first_name $last_name."
+```
+## Default Value if No Input
+Set a default value if the user does not provide input :
+```bash
+    #!/bin/bash
+    read -p "Enter your favorite color (default is blue): " color
+    color=${color:-blue}
+    echo "Your favorite color is $color."
+```
