@@ -374,3 +374,19 @@ Using the **`-p`** option allows you to display a prompt on the same line as the
     read -p "Enter your age: " age
     echo "You are $age years old."
 ```
+## Input Hidden (for passwords)
+The **`-s`** option hides the input while typing (useful for passwords) :
+```bash
+    #!/bin/bash
+    read -sp "Enter your password: " password
+    echo
+    echo "Password received!"
+```
+Or,
+```bash 
+    ```bash
+    #!/bin/bash
+    read -p "Enter your password: " -s password
+    echo
+    echo "Password received!"
+```
