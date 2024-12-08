@@ -416,3 +416,20 @@ Command line arguments allow a shell script to accept input directly from the co
 - **`$*`**: All arguments as a single string.
 - **`$?`**: Exit status of the last command.
 - **`$$`**: Process ID of the current script.
+## Example 1 : Basic Argument Handling
+```bash
+    #!/bin/bash
+    echo "Script name: $0"
+    echo "First argument: $1"
+    echo "Second argument: $2"
+```
+**Run the Script** :
+```bash 
+    ./script.sh arg1 arg2
+```
+**Output**
+```bash 
+    Script name: ./script.sh
+    First argument: arg1
+    Second argument: arg2
+```
