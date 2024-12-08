@@ -433,3 +433,16 @@ Command line arguments allow a shell script to accept input directly from the co
     First argument: arg1
     Second argument: arg2
 ```
+## Example 2 : Count Total Arguments
+```bash 
+    #!/bin/bash
+    echo "Number of arguments: $#"
+```
+**Run the Script**
+```bash 
+    ./script.sh arg1 arg2 arg3
+```
+**Output**
+```bash
+    Number of arguments: 3
+```
