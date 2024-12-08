@@ -408,3 +408,11 @@ Set a default value if the user does not provide input :
 ```
 # Command Line Arguments
 Command line arguments allow a shell script to accept input directly from the command line when the script is executed. These arguments are passed to the script as positional parameters.
+## Special Variable for Command Line Arguments
+- **`$0`**: The name of the script.
+- **`$1`**, **`$2`**, **`$3`**, ...: Positional parameters representing the arguments.
+- **`$#`**: The total number of arguments passed to the script.
+- **`$@`**: All arguments as a list (each treated as a separate string).
+- **`$*`**: All arguments as a single string.
+- **`$?`**: Exit status of the last command.
+- **`$$`**: Process ID of the current script.
