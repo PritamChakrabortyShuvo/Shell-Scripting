@@ -446,3 +446,18 @@ Command line arguments allow a shell script to accept input directly from the co
 ```bash
     Number of arguments: 3
 ```
+## Example 3: Access All Arguments
+```bash
+    #!/bin/bash
+    echo "All arguments (separately): $@"
+    echo "All arguments (single string): $*"
+```
+**Run the Script**
+```bash
+    ./script.sh hello world
+```
+**Output**
+```bash
+    All arguments (separately): hello world
+    All arguments (single string): hello world
+```
