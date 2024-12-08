@@ -406,3 +406,5 @@ Set a default value if the user does not provide input :
     color=${color:-blue}
     echo "Your favorite color is $color."
 ```
+# Command Line Arguments
+Command line arguments allow a shell script to accept input directly from the command line when the script is executed. These arguments are passed to the script as positional parameters.
