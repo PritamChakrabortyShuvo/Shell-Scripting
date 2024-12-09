@@ -461,3 +461,21 @@ Command line arguments allow a shell script to accept input directly from the co
     All arguments (separately): hello world
     All arguments (single string): hello world
 ```
+# Assigning a Command's Output to a Variable
+We can store the output of a command in a variable using command substitution. There are two methods for command substitution in shell scripts :
+## 1. Using Backticks
+```bash
+    variable=`command`
+```
+## 2. Using $() Syntax
+```bash
+    variable=$(command)
+```
+**Note** - The **`$()`** syntax is preferred because it is more readable and allows for nesting.
+## Examples
+### Store the Current Date and Time in a Variable
+```bash
+    current_date=$(date)
+    echo "The current date and time is: $current_date"
+```
+
