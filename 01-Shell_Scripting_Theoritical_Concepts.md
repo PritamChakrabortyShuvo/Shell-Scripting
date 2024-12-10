@@ -482,3 +482,24 @@ We can store the output of a command in a variable using command substitution. T
 In shell scripting, we can create a read-only variable using the **`readonly`** command. 
 
 Once a variable is marked as read-only, its value cannot be modified or unset during the script's execution.
+## Syntax
+```bash
+    readonly variable_name
+```
+## Example 1 : Creating a Read-Only Variable
+```bash
+    #!/bin/bash
+    name="Pritam"
+    readonly name
+    # Attempting to change the value (this will result in an error)
+    my_var="Trying to change value"
+```
+## Declaring a Read-Only Variable Directly
+```bash
+    readonly name="Pritam"
+```
+## Checking All Read-Only Variables
+You can list all read-only variables in the current shell using :
+```bash
+    readonly
+```
