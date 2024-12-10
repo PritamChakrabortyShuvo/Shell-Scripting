@@ -525,5 +525,16 @@ You can convert a string to uppercase or lowercase in shell scripts using built-
     #!/bin/bash
     string="hello world"
     uppercase=${string^^} # HELLO WORLD
-    echo "Uppercase: $uppercase"
+```
+
+## 1. Convert to Lowercase
+```bash
+    #!/bin/bash
+    string="Hello World"
+    uppercase=${string,} # hello World
+```
+```bash
+    #!/bin/bash
+    string="Hello World"
+    uppercase=${string,,} # hello world
 ```
