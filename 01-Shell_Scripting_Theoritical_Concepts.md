@@ -538,3 +538,10 @@ You can convert a string to uppercase or lowercase in shell scripts using built-
     string="Hello World"
     echo "${string,,}" # hello world
 ```
+# Finding the Length of a String Variable in Shell Script
+In shell scripting, you can find the length of a string variable using parameter expansion :
+```bash
+    #!bin/bash
+    string="Hello World"
+    echo "Length of String Variable is ${#string}" # Length of String Variable is 11 
+```
