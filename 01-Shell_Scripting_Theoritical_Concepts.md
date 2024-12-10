@@ -478,4 +478,7 @@ We can store the output of a command in a variable using command substitution. T
     current_date=$(date)
     echo "The current date and time is: $current_date"
 ```
+# Read-Only Variable
+In shell scripting, we can create a read-only variable using the **`readonly`** command. 
 
+Once a variable is marked as read-only, its value cannot be modified or unset during the script's execution.
