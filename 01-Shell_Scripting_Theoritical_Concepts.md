@@ -514,3 +514,16 @@ To Unset a Read-Only variable use **`unset`** before the variable name.
 ```
 # Convert a String to Upper and Lower Case
 You can convert a string to uppercase or lowercase in shell scripts using built-in string manipulation features of modern shells like Bash. By using Bash Parameter Expansion (Bash 4.0 & Later)
+## 1. Convert to Uppercase
+```bash
+    #!/bin/bash
+    string="hello world"
+    uppercase=${string^} # Hello World
+    echo "Uppercase: $uppercase"
+```
+```bash
+    #!/bin/bash
+    string="hello world"
+    uppercase=${string^^} # HELLO WORLD
+    echo "Uppercase: $uppercase"
+```
