@@ -503,3 +503,12 @@ You can list all read-only variables in the current shell using :
 ```bash
     readonly
 ```
+## Unset a Read-Only Variable
+To Unset a Read-Only variable use **`unset`** before the variable name.
+```bash
+    #!/bin/bash
+    var="Cannot unset this"
+    readonly var
+    echo "$var"
+    unset var
+```
