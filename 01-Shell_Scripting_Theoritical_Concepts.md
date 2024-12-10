@@ -512,3 +512,5 @@ To Unset a Read-Only variable use **`unset`** before the variable name.
     echo "$var"
     unset var
 ```
+# Convert a String to Upper and Lower Case
+You can convert a string to uppercase or lowercase in shell scripts using built-in string manipulation features of modern shells like Bash. By using Bash Parameter Expansion (Bash 4.0 & Later)
