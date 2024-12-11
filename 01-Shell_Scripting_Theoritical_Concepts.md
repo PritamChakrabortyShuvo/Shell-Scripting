@@ -570,3 +570,13 @@ Examples using the string "**`Hello World`**"
 ```bash
     echo "${string: -5}"    # Output: "World"
 ```
+## Pattern Matching (from Starting)
+Examples using the string "**`abc123def456cghi`**"
+### 1. From Starting, Shortest Match
+```bash
+    echo "${string#a*c}"    # Output: "123def456cghi"
+```
+### 2. From Starting, Longest Match (##)
+```bash
+    echo "${string##a*c}"   # Output: "ghi"
+```
