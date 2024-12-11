@@ -545,3 +545,5 @@ In shell scripting, you can find the length of a string variable using parameter
     string="Hello World"
     echo "Length of String Variable is ${#string}" # Length of String Variable is 11 
 ```
+# Convert a String to Substring in Shell Script (String Manipulation)
+In shell scripting, you can extract a substring from a string using Bash Parameter Expansion. This method is simple and efficient.
