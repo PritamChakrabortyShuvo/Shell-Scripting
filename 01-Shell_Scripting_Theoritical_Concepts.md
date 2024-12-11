@@ -590,3 +590,15 @@ Let's use the string "**`xyz987abc654ghi`**".
 ```bash
     echo "${string%%d*i}"    # Output: "abc123"
 ```
+## Replacing
+### 1. Replace the First Occurrence
+Let's use the string "**`xyz987abc654xyzghi`**".
+```bash
+    echo "${string/xyz/abc}"    # Output : "abc987abc654xyzghi"
+```
+It replaced the first occurrence of **`xyz`** with **`abc`**
+### 2. Replace All Occurrence
+```bash
+    echo "${string//xyz/abc}"    # Output : "abc987abc654abcghi"
+```
+All instances of **`xyz`** are replaced with **`abc`**
