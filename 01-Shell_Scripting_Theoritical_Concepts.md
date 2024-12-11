@@ -609,7 +609,7 @@ Let's use the string "**`xyz987abc654xyzghi`**".
     echo "${string/xyz}"    # Output : "987abc654xyzghi"
 ```
 The first **`xyz`** is removed.
-### Remove All Occurrence
+### 2. Remove All Occurrence
 ```bash
     echo "${string//xyz}"    # Output : "987abc654ghi"
 ```
