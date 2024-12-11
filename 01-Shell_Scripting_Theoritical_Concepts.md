@@ -547,3 +547,26 @@ In shell scripting, you can find the length of a string variable using parameter
 ```
 # Convert a String to Substring in Shell Script (String Manipulation)
 In shell scripting, you can extract a substring from a string using Bash Parameter Expansion. This method is simple and efficient.
+## Basic Substring Extraction
+Examples using the string "**`Hello World`**"
+### 1. Extract from Position 0 to End
+```bash
+    string="Hello World"
+    echo "${string:0}"      # Output: "Hello World"
+```
+### 2. Extract from Position 4 to End
+```bash
+    echo "${string:4}"      # Output: "ello World"
+```
+### 3. Extract from Position 0 to 3 Characters
+```bash
+    echo "${string:0:3}"    # Output: "Hel"
+```
+### 4. Extract from Position 3 to 3 Characters
+```bash
+    echo "${string:3:3}"    # Output: "lo "
+```
+### 5. Extract Last 5 Characters
+```bash
+    echo "${string: -5}"    # Output: "World"
+```
