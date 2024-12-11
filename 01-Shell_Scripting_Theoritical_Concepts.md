@@ -591,8 +591,8 @@ Let's use the string "**`xyz987abc654ghi`**".
     echo "${string%%d*i}"    # Output: "abc123"
 ```
 ## Replacing
-### 1. Replace the First Occurrence
 Let's use the string "**`xyz987abc654xyzghi`**".
+### 1. Replace the First Occurrence
 ```bash
     echo "${string/xyz/abc}"    # Output : "abc987abc654xyzghi"
 ```
@@ -602,3 +602,15 @@ It replaced the first occurrence of **`xyz`** with **`abc`**
     echo "${string//xyz/abc}"    # Output : "abc987abc654abcghi"
 ```
 All instances of **`xyz`** are replaced with **`abc`**
+## Removing
+Let's use the string "**`xyz987abc654xyzghi`**".
+### 1. Remove the First Occurrence
+```bash
+    echo "${string/xyz}"    # Output : "987abc654xyzghi"
+```
+The first **`xyz`** is removed.
+### Remove All Occurrence
+```bash
+    echo "${string//xyz}"    # Output : "987abc654ghi"
+```
+This will remove all occurrences of **`xyz`** from the string.
