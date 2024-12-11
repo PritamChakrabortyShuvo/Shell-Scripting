@@ -572,11 +572,21 @@ Examples using the string "**`Hello World`**"
 ```
 ## Pattern Matching (from Starting)
 Examples using the string "**`abc123def456cghi`**"
-### 1. From Starting, Shortest Match
+### 1. From Starting, Shortest Match (`#`)
 ```bash
     echo "${string#a*c}"    # Output: "123def456cghi"
 ```
-### 2. From Starting, Longest Match (##)
+### 2. From Starting, Longest Match (`##`)
 ```bash
     echo "${string##a*c}"   # Output: "ghi"
+```
+## Pattern Matching (from Ending)
+Let's use the string "**`xyz987abc654ghi`**".
+### 1. From Ending, Shortest Match (`%`)
+```bash
+    echo "${string%g*i}"    # Output: "xyz987abc654"
+```
+### 1. From Ending, Longest Match (`%%`)
+```bash
+    echo "${string%%d*i}"    # Output: "abc123"
 ```
