@@ -616,3 +616,9 @@ The first **`xyz`** is removed.
 This will remove all occurrences of **`xyz`** from the string.
 #  Set Default Value of a Variable
 To set a default value for a variable in shell scripting, you can use the parameter expansion syntax **`${variable:-default_value}`**
+## Syntax
+```bash
+    ${variable:-default_value}
+```
+- If variable is unset or empty, it will use **`default_value`**.
+- This does not modify the value of the variable itself.
