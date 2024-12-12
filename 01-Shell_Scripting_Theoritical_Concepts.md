@@ -622,3 +622,22 @@ To set a default value for a variable in shell scripting, you can use the parame
 ```
 - If variable is unset or empty, it will use **`default_value`**.
 - This does not modify the value of the variable itself.
+### Example
+```bash
+    name=${name:-"Guest"}
+    echo "Hello, $name!"
+```
+- If name is not set, it will print: **`Hello, Guest!`**
+- If **`name="Alice"`**, it will print: **`Hello, Alice!`**
+## To Assign the Default Value
+If you want to assign the default value to the variable, use **`:=`** instead of **`:-`**
+```bash
+    ${variable:=default_value}
+```
+### Example
+```bash
+    name=${name:="Guest"}
+    echo "Hello, $name!"
+```
+- If name is not set, it will set **`name="Guest"`** and print: **`Hello, Guest!`**
+- If **`name="Alice"`**, it will print: **`Hello, Alice!`**
