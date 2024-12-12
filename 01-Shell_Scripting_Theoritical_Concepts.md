@@ -614,3 +614,5 @@ The first **`xyz`** is removed.
     echo "${string//xyz}"    # Output : "987abc654ghi"
 ```
 This will remove all occurrences of **`xyz`** from the string.
+#  Set Default Value of a Variable
+To set a default value for a variable in shell scripting, you can use the parameter expansion syntax **`${variable:-default_value}`**
