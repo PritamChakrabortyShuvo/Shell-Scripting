@@ -721,3 +721,12 @@ In shell scripting, arithmetic operations can be performed using the **`expr`**,
     power=$((a ** b))
     echo "Exponentiation: $power"
 ```
+> **Output**
+```bash
+    Addition: 15
+    Subtraction: 5
+    Multiplication: 50
+    Division: 2
+    Modulo: 0
+    Exponentiation: 100000
+```
