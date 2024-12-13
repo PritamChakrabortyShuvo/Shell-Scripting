@@ -659,3 +659,12 @@ In shell scripting, we can ensure that variables are set before the script conti
     - Checks if the variable **`name`** is set & not empty.
     - If **`name`** is unset or empty, the script exits & prints the error message: **`"Please set Variable Values."`**
 2. If the variable name is set (e.g., **`name="Pritam"`**), the script will proceed to print **`"I am Here."`**
+### Example Execution-01
+**When `name` is Not Set** :
+```bash
+    ./script.sh
+```
+**Output** :
+```bash
+    ./script.sh: line 4: name: Please set variable values.
+```
