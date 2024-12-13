@@ -57,6 +57,7 @@ Change the script's permissions to make it executable
 If everything is done correctly, the script should run and execute the commands within it.
 ## Step 5 : Check the Output
 The output will be shown like this :
+> **Output** 
 ```bash
     Hi, I am Pritam
     This is my first script
@@ -64,6 +65,7 @@ The output will be shown like this :
     total 4
     -rwxr-xr-x 1 pritam pritam 66 Dec 1 15:28 first-script.sh
 ```
+
 # Best Practice for Script Name
 1. Give your Script a name that makes sense.
     - **Good Example** - `my-name`
@@ -427,7 +429,7 @@ Command line arguments allow a shell script to accept input directly from the co
 ```bash 
     ./script.sh arg1 arg2
 ```
-**Output**
+> **Output**
 ```bash 
     Script name: ./script.sh
     First argument: arg1
@@ -442,7 +444,7 @@ Command line arguments allow a shell script to accept input directly from the co
 ```bash 
     ./script.sh arg1 arg2 arg3
 ```
-**Output**
+> **Output**
 ```bash
     Number of arguments: 3
 ```
@@ -456,7 +458,7 @@ Command line arguments allow a shell script to accept input directly from the co
 ```bash
     ./script.sh hello world
 ```
-**Output**
+> **Output**
 ```bash
     All arguments (separately): hello world
     All arguments (single string): hello world
