@@ -759,3 +759,26 @@ In shell scripting, incrementing and decrementing variables can be done using th
     ((--a))
     echo "Pre-decrement: $a"  # Output: 3
 ```
+## Example-02 ~ Compound Assignment
+```bash
+    #!/bin/bash
+
+    # Initialize a variable
+    a=5
+
+    # Add a value (e.g., 3)
+    ((a+=3))
+    echo "After adding 3: $a"  # Output: 8
+
+    # Subtract a value (e.g., 2)
+    ((a-=2))
+    echo "After subtracting 2: $a"  # Output: 6
+
+    # Multiply by a value (e.g., 4)
+    ((a*=4))
+    echo "After multiplying by 4: $a"  # Output: 24
+
+    # Divide by a value (e.g., 3)
+    ((a/=3))
+    echo "After dividing by 3: $a"  # Output: 8
+```
