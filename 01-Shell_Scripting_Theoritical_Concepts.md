@@ -689,7 +689,7 @@ In shell scripting, arithmetic operations can be performed using the **`expr`**,
 - **Division** (`/`)
 - **Modulo** (`%`)
 - **Exponentiation** (`**`)
-## Examples
+## Example
 ```bash
     #!/bin/bash
 
@@ -736,3 +736,26 @@ In shell scripting, arithmetic operations can be performed using the **`expr`**,
 - Use quotes or escape **`*`** when multiplying in the script.
 # Increment & Decrement 
 In shell scripting, incrementing and decrementing variables can be done using the **`let`**, **`(( ))`**, or **`expr`** commands. Below are the methods:
+## Example-01 
+```bash
+    #!/bin/bash
+
+    # Initialize a variable
+    a=5
+
+    # Post-increment
+    ((a++))
+    echo "Post-increment: $a"  # Output: 6
+
+    # Pre-increment
+    ((++a))
+    echo "Pre-increment: $a"  # Output: 7
+
+    # Post-decrement
+    ((a--))
+    echo "Post-decrement: $a"  # Output: 4
+
+    # Pre-decrement
+    ((--a))
+    echo "Pre-decrement: $a"  # Output: 3
+```
