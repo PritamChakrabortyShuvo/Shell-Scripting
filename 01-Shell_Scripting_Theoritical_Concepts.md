@@ -793,3 +793,8 @@ In shell scripting, incrementing and decrementing variables can be done using th
     ((a%=3))
     echo "After modulus 3: $a"  # Output: 1
 ```
+## Key Notes :
+- **`((a++))`** : Post-increment (increments a after use).
+- **`((++a))`** : Pre-increment (increments a before use).
+- **Compound Assignment** : Operations like **`+=`**, **`-=`**, **`*=`**, **`/=`**, **`%=`** modify the variable directly.
+- Efficient for performing arithmetic operations in shell scripts.
