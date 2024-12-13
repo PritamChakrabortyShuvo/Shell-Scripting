@@ -782,3 +782,14 @@ In shell scripting, incrementing and decrementing variables can be done using th
     ((a/=3))
     echo "After dividing by 3: $a"  # Output: 8
 ```
+## Example-03 ~ Modulus
+```bash
+    #!/bin/bash
+
+    # Initialize a variable
+    a=10
+
+    # Modulus operation (remainder of division by 3)
+    ((a%=3))
+    echo "After modulus 3: $a"  # Output: 1
+```
