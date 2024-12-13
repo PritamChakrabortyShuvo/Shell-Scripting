@@ -753,11 +753,11 @@ In shell scripting, incrementing and decrementing variables can be done using th
 
     # Post-decrement
     ((a--))
-    echo "Post-decrement: $a"  # Output: 4
+    echo "Post-decrement: $a"  # Output: 6
 
     # Pre-decrement
     ((--a))
-    echo "Pre-decrement: $a"  # Output: 3
+    echo "Pre-decrement: $a"  # Output: 5
 ```
 ## Key Notes :
 - **`((a++))`** : Post-increment (increments a after use).
