@@ -62,7 +62,7 @@ The output will be shown like this :
     Hi, I am Pritam
     This is my first script
     /home/username/my_first_script
-    total 4
+    total 4s
     -rwxr-xr-x 1 pritam pritam 66 Dec 1 15:28 first-script.sh
 ```
 
@@ -666,7 +666,7 @@ In shell scripting, we can ensure that variables are set before the script conti
 ```bash
     ./script.sh
 ```
-> **Output** :
+> **Output** 
 ```bash
     ./script.sh: line 4: name: Please set variable values.
 ```
