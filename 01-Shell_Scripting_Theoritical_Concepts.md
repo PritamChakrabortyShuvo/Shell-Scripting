@@ -680,7 +680,7 @@ In shell scripting, we can ensure that variables are set before the script conti
     I am Here.
 ```
 This method ensures essential variables are validated before the script continues.
-# Arithmetic Operations in Shell Scripting
+# Arithmetic Operations
 In shell scripting, arithmetic operations can be performed using the **`expr`**, **`let`**, or **`$((...))`** syntax. Here are some common operations :
 ## Operators
 - **Addition** (`+`)
@@ -734,3 +734,5 @@ In shell scripting, arithmetic operations can be performed using the **`expr`**,
 - Use **`$((...))`** for arithmetic evaluation.
 - To ensure integers are used (no decimals) **avoid dividing by zero**.
 - Use quotes or escape **`*`** when multiplying in the script.
+# Increment & Decrement 
+In shell scripting, incrementing and decrementing variables can be done using the **`let`**, **`(( ))`**, or **`expr`** commands. Below are the methods:
