@@ -643,3 +643,19 @@ If you want to assign the default value to the variable, use **`:=`** instead of
 - If **`name="Alice"`**, it will print: **`Hello, Alice!`**
 # Check is Command Line Variable Passed or Not
 In shell scripting, we can ensure that variables are set before the script continues execution using **`${parameter:?}`** syntax. This is particularly useful for validating that a required command-line argument or variable is provided.
+## Example 
+```bash
+    #!/bin/bash
+
+    # Uncomment the line below to set the variable
+    # name="Pritam"
+
+    : "${name:?"Please set Variable Values."}"
+
+    echo "I am Here."
+```
+### Description 
+1. **`$(name:?)`** :
+    - Checks if the variable **`name`** is set & not empty.
+    - If **`name`** is unset or empty, the script exits & prints the error message: **`"Please set Variable Values."`**
+2. If the variable name is set (e.g., **`name="Pritam"`**), the script will proceed to print **`"I am Here."`**
