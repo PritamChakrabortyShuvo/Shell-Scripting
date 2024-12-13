@@ -689,3 +689,35 @@ In shell scripting, arithmetic operations can be performed using the **`expr`**,
 - **Division** (`/`)
 - **Modulo** (`%`)
 - **Exponentiation** (`**`)
+## Examples
+```bash
+    #!/bin/bash
+
+    # Variables
+    a=10
+    b=5
+
+    # Addition
+    sum=$((a + b))
+    echo "Addition: $sum"
+
+    # Subtraction
+    sub=$((a - b))
+    echo "Subtraction: $sum"
+
+    # Multiplication
+    mul=$((a * b))
+    echo "Multiplication: $mul"
+
+    # Division
+    div=$((a / b))
+    echo "Division: $div"
+
+    # Modulo
+    mod=$((a % b))
+    echo "Modulo: $mod"
+
+    # Exponentiation
+    power=$((a ** b))
+    echo "Exponentiation: $power"
+```
