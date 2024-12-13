@@ -759,6 +759,9 @@ In shell scripting, incrementing and decrementing variables can be done using th
     ((--a))
     echo "Pre-decrement: $a"  # Output: 3
 ```
+## Key Notes :
+- **`((a++))`** : Post-increment (increments a after use).
+- **`((++a))`** : Pre-increment (increments a before use).
 ## Example-02 ~ Compound Assignment
 ```bash
     #!/bin/bash
@@ -794,7 +797,4 @@ In shell scripting, incrementing and decrementing variables can be done using th
     echo "After modulus 3: $a"  # Output: 1
 ```
 ## Key Notes :
-- **`((a++))`** : Post-increment (increments a after use).
-- **`((++a))`** : Pre-increment (increments a before use).
 - **Compound Assignment** : Operations like **`+=`**, **`-=`**, **`*=`**, **`/=`**, **`%=`** modify the variable directly.
-- Efficient for performing arithmetic operations in shell scripts.
