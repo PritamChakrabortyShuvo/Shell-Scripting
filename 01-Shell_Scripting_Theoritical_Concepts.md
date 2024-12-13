@@ -682,3 +682,10 @@ In shell scripting, we can ensure that variables are set before the script conti
 This method ensures essential variables are validated before the script continues.
 # Arithmetic Operations in Shell Scripting
 In shell scripting, arithmetic operations can be performed using the **`expr`**, **`let`**, or **`$((...))`** syntax. Here are some common operations :
+## Operators
+- **Addition** (`+`)
+- **Subtraction** (`-`)
+- **Multiplication** (`*`)
+- **Division** (`/`)
+- **Modulo** (`%`)
+- **Exponentiation** (`**`)
