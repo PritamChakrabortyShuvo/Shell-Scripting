@@ -730,3 +730,7 @@ In shell scripting, arithmetic operations can be performed using the **`expr`**,
     Modulo: 0
     Exponentiation: 100000
 ```
+## Key Notes :
+- Use **`$((...))`** for arithmetic evaluation.
+- To ensure integers are used (no decimals) **avoid dividing by zero**.
+- Use quotes or escape **`*`** when multiplying in the script.
