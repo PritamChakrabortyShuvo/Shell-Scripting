@@ -664,7 +664,17 @@ In shell scripting, we can ensure that variables are set before the script conti
 ```bash
     ./script.sh
 ```
-**Output** :
+> **Output** :
 ```bash
     ./script.sh: line 4: name: Please set variable values.
 ```
+### Example Execution-02
+**When `name` is Set** :
+```bash
+    name="Pritam" ./script.sh
+```
+> **Output**
+```bash
+    I am Here.
+```
+This method ensures essential variables are validated before the script continues.
