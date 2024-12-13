@@ -641,3 +641,5 @@ If you want to assign the default value to the variable, use **`:=`** instead of
 ```
 - If name is not set, it will set **`name="Guest"`** and print: **`Hello, Guest!`**
 - If **`name="Alice"`**, it will print: **`Hello, Alice!`**
+# Check is Command Line Variable Passed or Not
+In shell scripting, we can ensure that variables are set before the script continues execution using **`${parameter:?}`** syntax. This is particularly useful for validating that a required command-line argument or variable is provided.
