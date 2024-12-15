@@ -22,11 +22,11 @@ A **shell script is a text file** containing a **sequence of shell commands**. I
 - **Alerts and Notifications** - Get alerts for issues like low disk space.
 - **Troubleshooting and Audits** - Identify problems and maintain logs.
 # Pre-Requisites 
-- Linux Basics.
-- Command Line Basics
-- No Programming Knowledge Required.
+1. Linux Basics.
+2. Command Line Basics
+3. No Programming Knowledge Required.
 # How to Check Shell Name?
-Open a terminal on Linux and run
+Open a **Terminal** on **Linux** & **Run**
 ```bash
     echo $0
 ```
