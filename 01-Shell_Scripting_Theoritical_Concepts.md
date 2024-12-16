@@ -7,7 +7,7 @@ This documentation introduces the fundamentals of **shell scripting**, **coverin
 # What is Linux Shell?
 A Linux shell is a command-line interpreter that processes user commands and scripts, acting as an interface between the Applications and the Operating System. Examples include **`bash`**, **`sh`** & **`zsh`**.
 <div align="center">
-    <img src="Diagrams/Architecture.png" alt="Project Logo" width=40%>
+    <img src="Diagrams/Architecture.png" alt="Project Logo" width=30%>
 </div>
 
 # What is Shell Script?
@@ -65,15 +65,13 @@ The output will be shown like this :
     total 4s
     -rwxr-xr-x 1 pritam pritam 66 Dec 1 15:28 first-script.sh
 ```
-
 # Best Practice for Script Name
 1. Give your Script a name that makes sense.
     - **Good Example** - `my-name`
     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
 2. Leave out **`.sh`** extension for executables.
      - **Good Example** - `my-name`
-    - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
-
+     - **Bad Example** - `script.sh`; `myscript.sh`;`test.sh`
 # Shebang(`#!`) for Shell Scripting
 The shebang (**`#!`**) is the first line in a shell script that specifies the interpreter to execute the script. It tells the system which shell or interpreter to use for executing the script.
 ## Syntax 
