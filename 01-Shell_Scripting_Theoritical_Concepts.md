@@ -888,3 +888,7 @@ We can set default values for function parameters if they are not provided
     Hello, John!
     Hello, Guest!
 ```
+## Key Points
+- Functions improve the readability & reusability of our shell scripts.
+- They can accept arguments & return values (usually with **`echo`** or **`return`**).
+- Functions can be called multiple times in a script.
