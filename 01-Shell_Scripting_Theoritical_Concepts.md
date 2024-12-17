@@ -798,3 +798,36 @@ In shell scripting, incrementing and decrementing variables can be done using th
 - **Compound Assignment** : Operations like **`+=`**, **`-=`**, **`*=`**, **`/=`**, **`%=`** modify the variable directly.
 # Functions 
 Functions allow us to group commands together for reuse in a script. This helps to organize the code & avoid redundancy.
+## Defining a Function 
+You can define a function in 3 ways in shell scripting :
+### 1. Defining a Function with the `function` Keyword
+```bash
+    #!/bin/bash
+
+    function function_name() {
+    # Commands to be Executed
+    echo "Hello, World!"
+}
+```
+### 2. Defining a Function Without the `function` Keyword
+```bash
+    #!/bin/bash
+
+    function_name() {
+    # Commands to be executed
+    echo "Hello, World!"
+}
+```
+### 3. Defining a Function Without Parentheses
+```bash
+    #!/bin/bash
+
+    function function_name {
+    # Commands to be Executed
+    echo "Hello, World!"
+}
+
+
+
+
+
