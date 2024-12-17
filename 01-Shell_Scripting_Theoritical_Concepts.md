@@ -924,3 +924,11 @@ We can set default values for function parameters if they are not provided
     Configuration Function
     Deploy Function
 ```
+### Key Observation
+1. **Function Reusability**
+    - The **`config`** function is reused both individually (when called directly) & inside the deploy function.
+2. **Order of Execution**
+    - Functions are executed in the order they are called :
+        1. First install. 
+        2. Then config.
+        3. Finally deploy (which internally calls config).
