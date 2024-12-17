@@ -892,3 +892,35 @@ We can set default values for function parameters if they are not provided
 - Functions improve the readability & reusability of our shell scripts.
 - They can accept arguments & return values (usually with **`echo`** or **`return`**).
 - Functions can be called multiple times in a script.
+## Function Reusability and Calling in Bash
+```bash
+    #!/bin/bash  
+
+    # Define the 'install' function
+    function install() {   
+        echo "Install Function" 
+    }
+
+    # Define the 'config' function
+    function config() {   
+        echo "Configuration Function" 
+    }
+
+    # Define the 'deploy' function
+    function deploy() {   
+        config   # Call the 'config' function within 'deploy'
+        echo "Deploy Function" 
+    }
+
+    # Call the functions
+    install
+    config
+    deploy
+```
+### Output
+```bash
+    Install Function
+    Configuration Function
+    Configuration Function
+    Deploy Function
+```
