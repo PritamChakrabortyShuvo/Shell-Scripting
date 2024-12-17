@@ -826,6 +826,12 @@ You can define a function in 3 ways in shell scripting :
     # Commands to be Executed
     echo "Hello, World!"
 }
+```
+## Calling a Function
+Once a function is defined we can call it by simply using its name
+```bash
+    function_name
+```
 
 
 
