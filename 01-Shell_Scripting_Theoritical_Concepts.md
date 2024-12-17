@@ -796,3 +796,5 @@ In shell scripting, incrementing and decrementing variables can be done using th
 ```
 ## Key Notes :
 - **Compound Assignment** : Operations like **`+=`**, **`-=`**, **`*=`**, **`/=`**, **`%=`** modify the variable directly.
+# Functions 
+Functions allow us to group commands together for reuse in a script. This helps to organize the code & avoid redundancy.
