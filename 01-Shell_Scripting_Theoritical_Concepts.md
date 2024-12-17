@@ -832,8 +832,23 @@ Once a function is defined we can call it by simply using its name
 ```bash
     function_name
 ```
+## Example of a Simple Function
+```bash
+    #!/bin/bash
 
+    # Define a function
+    function greet() {
+        echo "Hello, $1!"  # $1 is the first argument passed to the function
+    }
 
-
+    # Call the function
+    greet "John"
+    greet "Alice"
+```
+### Output 
+```bash
+    Hello, John!
+    Hello, Alice!
+```
 
 
