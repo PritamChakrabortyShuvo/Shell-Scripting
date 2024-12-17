@@ -868,3 +868,23 @@ We can pass multiple arguments to a function. Inside the function, these argumen
 ```bash
     The sum is: 9
 ```
+## Example of Function with Default Values
+We can set default values for function parameters if they are not provided
+```bash
+    #!/bin/bash
+
+    # Define a function with default values
+    greet() {
+        local name=${1:-"Guest"}  # If no argument is passed, "Guest" is used.
+        echo "Hello, $name!"
+    }
+
+    # Call the function with and without arguments
+    greet "John"
+    greet
+```
+### Output 
+```bash
+    Hello, John!
+    Hello, Guest!
+```
