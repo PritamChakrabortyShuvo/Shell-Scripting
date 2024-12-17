@@ -850,5 +850,21 @@ Once a function is defined we can call it by simply using its name
     Hello, John!
     Hello, Alice!
 ```
+## Example of Function with Multiple Arguments
+We can pass multiple arguments to a function. Inside the function, these arguments are accessed using **`$1`**, **`$2`**, **`$3`**, etc
+```bash 
+    #!/bin/bash
 
+    # Define a function
+    sum_numbers() {
+        sum=$(( $1 + $2 + $3 ))
+        echo "The sum is: $sum"
+    }
 
+    # Call the function with 3 arguments
+    sum_numbers 2 3 4
+```
+### Output 
+```bash
+    The sum is: 9
+```
