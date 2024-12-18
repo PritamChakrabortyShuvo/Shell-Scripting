@@ -5,7 +5,7 @@ This documentation introduces the fundamentals of **shell scripting**, **coverin
 </div>
 
 # What is Linux Shell?
-A Linux shell is a command-line interpreter that processes user commands and scripts, acting as an interface between the Applications and the Operating System. Examples include **`bash`**, **`sh`** & **`zsh`**.
+A **Linux Shell** is a **command-line interpreter** that **processes user commands & scripts**, acting as an interface between the Applications and the Operating System. Examples include **`bash`**, **`sh`** & **`zsh`**.
 <div align="center">
     <img src="Diagrams/Architecture.png" alt="Project Logo" width=30%>
 </div>
