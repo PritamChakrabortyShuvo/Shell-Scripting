@@ -15,12 +15,12 @@ A **shell script is a text file** containing a **sequence of shell commands**. I
 # What is Shell Scripting?
 **Shell Scripting** is the **process of writing** and **creating shell scripts**. It involves using **shell syntax** & **commands** to **develop automation scripts** that **perform tasks** **on the system**. It involves **writing scripts using shell commands** to **perform a series of tasks**.
 # Use Cases of Shell Scripting
-- **Automate Repetitive Tasks** - Save time by automating backups, installations & updates.
-- **Simplify Commands** - Combine multiple commands into a single script.
-- **System Administration** - Manage users, files & services efficiently.
-- **Periodic Monitoring** - Automatically check system health regularly.
-- **Alerts and Notifications** - Get alerts for issues like low disk space.
-- **Troubleshooting and Audits** - Identify problems and maintain logs.
+1. **Automate Repetitive Tasks** - Save time by automating backups, installations & updates.
+2. **Simplify Commands** - Combine multiple commands into a single script.
+3. **System Administration** - Manage users, files & services efficiently.
+4. **Periodic Monitoring** - Automatically check system health regularly.
+5. **Alerts and Notifications** - Get alerts for issues like low disk space.
+6. **Troubleshooting and Audits** - Identify problems and maintain logs.
 # Pre-Requisites 
 1. Linux Basics.
 2. Command Line Basics
