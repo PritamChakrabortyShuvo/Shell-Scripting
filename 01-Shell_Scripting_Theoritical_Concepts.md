@@ -46,7 +46,7 @@ Here are the steps to create and run your first shell script from scratch :
 ```
 Save & Exit.
 ## Step 3 : Make the Script Executable 
-Change the script's permissions to make it executable
+Change the **script's permissions** to make it **executable**
 ```bash
     chmod +x first-script.sh
 ```
