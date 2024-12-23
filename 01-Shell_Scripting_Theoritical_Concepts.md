@@ -78,7 +78,7 @@ The **shebang** (**`#!`**) is the **first line** in a **shell script** that **sp
 ```bash 
     #!/path/to/interpreter
 ```
-The **`#!`** is followed by the Absolute Path of the interpreter.
+The **`#!`** is followed by the **Absolute Path** of the **interpreter**.
 ## Examples 
 ### 1. Use **`which`** to find the interpreter's path 
 ```bash
