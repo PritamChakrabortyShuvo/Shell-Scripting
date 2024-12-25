@@ -1036,3 +1036,10 @@ In shell scripting, variables are global by default. To restrict the scope of a 
     echo "Outside function: $local_var"  # Will not work (local variable)
     echo "Outside function: $global_var" # Will work (global variable)
 ```
+> **Output**
+```bash
+    Inside function: I am local
+    Inside function: I am global
+    Outside function:
+    Outside function: I am global
+```
