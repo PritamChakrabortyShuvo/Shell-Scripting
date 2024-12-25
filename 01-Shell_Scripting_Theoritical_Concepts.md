@@ -1012,3 +1012,27 @@ In shell scripting, variables are global by default. To restrict the scope of a 
     Hello from inside the function!
     (empty output for the second echo)
 ```
+### Explanation
+1. **`local message="Hello from inside the function!"`**:
+    - The variable **`message`** is restricted to the scope of **`example_function`**.
+    - It cannot be accessed outside the function.
+2. When you try to access the **message** variable outside the function, it results in an empty output since the variable is not defined globally.
+### Example: Local vs Global Variables
+```bash
+    #!/bin/bash
+
+    # Define the function
+    function test_scope() {
+        local local_var="I am local"
+        global_var="I am global"
+        echo "Inside function: $local_var"
+        echo "Inside function: $global_var"
+    }
+
+    # Call the function
+    test_scope
+
+    # Access variables outside the function
+    echo "Outside function: $local_var"  # Will not work (local variable)
+    echo "Outside function: $global_var" # Will work (global variable)
+```
