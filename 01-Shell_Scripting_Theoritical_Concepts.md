@@ -982,3 +982,5 @@ In shell scripting, arguments can be passed to functions in a similar way as the
 - Arguments are separated by spaces when calling the function.
 
 By using this method, functions in shell scripts can handle dynamic input efficiently!
+## Create Local Variables in Functions in Shell Script
+In shell scripting, variables are global by default. To restrict the scope of a variable to a specific function, you can declare it as a local variable using the **`local`** keyword. This ensures the variable is only accessible within the function where it is defined and does not affect variables outside the function.
