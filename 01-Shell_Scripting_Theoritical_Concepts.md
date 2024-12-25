@@ -971,3 +971,7 @@ In shell scripting, arguments can be passed to functions in a similar way as the
     # Call the function with arguments
     greet_user "Pritam" "Shell Scripting"
 ```
+> **Output**
+```bash
+    Hello, Pritam! Welcome to Shell Scripting.
+```
