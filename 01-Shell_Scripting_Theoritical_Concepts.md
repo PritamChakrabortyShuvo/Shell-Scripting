@@ -975,3 +975,10 @@ In shell scripting, arguments can be passed to functions in a similar way as the
 ```bash
     Hello, Pritam! Welcome to Shell Scripting.
 ```
+### Key Notes
+- **`$1`**, **`$2`**, ..., $n are used to access the arguments individually.
+- **`$@`** or **`$*`** represents all arguments.
+- **`$#`** gives the total number of arguments passed.
+- Arguments are separated by spaces when calling the function.
+
+By using this method, functions in shell scripts can handle dynamic input efficiently!
