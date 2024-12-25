@@ -949,3 +949,13 @@ We can set default values for function parameters if they are not provided
 - Use functions only when needed. For simple, one-off commands, avoid wrapping them unnecessarily in a function.
 ## Pass Arguments to Functions
 In shell scripting, arguments can be passed to functions in a similar way as they are passed to scripts. Inside the function, these arguments are accessed using positional parameters(**`$1`**, **`$2`**) 
+### Syntax for Passing Arguments
+```bash
+    function function_name() {
+        # Access arguments using $1, $2, etc.
+        echo "First argument: $1"
+        echo "Second argument: $2"
+    }
+    # Call the function with arguments
+    function_name arg1 arg2
+```
