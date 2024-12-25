@@ -1043,3 +1043,8 @@ In shell scripting, variables are global by default. To restrict the scope of a 
     Outside function:
     Outside function: I am global
 ```
+### Key Notes 
+- **Global by Default** : All variables in Bash are global unless explicitly declared local.
+- **Use local for Safety** : Avoid unintentional overwriting of global variables by using local inside functions.
+- **Scope Limited to Function** : local variables are destroyed when the function execution ends.
+- **Good Practice** : Always use local for variables that are only needed within a function to avoid unintended side effects.
