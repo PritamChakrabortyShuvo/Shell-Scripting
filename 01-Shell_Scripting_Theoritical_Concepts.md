@@ -947,3 +947,5 @@ We can set default values for function parameters if they are not provided
 - Use **`return`** to specify the exit code of a function, which can be used for error handling.
 ### 7. Avoid Function Overhead for Simple Tasks
 - Use functions only when needed. For simple, one-off commands, avoid wrapping them unnecessarily in a function.
+## Pass Arguments to Functions
+In shell scripting, arguments can be passed to functions in a similar way as they are passed to scripts. Inside the function, these arguments are accessed using positional parameters(**`$1`**, **`$2`**) 
