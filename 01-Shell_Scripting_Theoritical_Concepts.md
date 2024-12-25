@@ -959,3 +959,15 @@ In shell scripting, arguments can be passed to functions in a similar way as the
     # Call the function with arguments
     function_name arg1 arg2
 ```
+### Example of Passing Arguments
+```bash
+    #!/bin/bash
+
+    # Define the function
+    function greet_user() {
+        echo "Hello, $1! Welcome to $2."
+    }
+
+    # Call the function with arguments
+    greet_user "Pritam" "Shell Scripting"
+```
