@@ -1007,3 +1007,8 @@ In shell scripting, variables are global by default. To restrict the scope of a 
     # Try to access the variable outside the function
     echo "$message"  # This will not work because 'message' is local to the function
 ```
+> **Output**
+```bash
+    Hello from inside the function!
+    (empty output for the second echo)
+```
