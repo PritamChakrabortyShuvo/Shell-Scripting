@@ -932,3 +932,18 @@ We can set default values for function parameters if they are not provided
         1. First install. 
         2. Then config.
         3. Finally deploy (which internally calls config).
+## Best Practices for Calling Functions in Shell Scripting
+### 1. Define Functions Before Calling Them
+- Always define functions at the top of the script before invoking them. This ensures the script knows about the function before it is called.
+### 2. Use Descriptive Function Names
+- Function names should describe their purpose clearly to improve readability and maintainability.
+### 3. Avoid Naming Conflicts
+- Ensure function names do not conflict with system commands or variables. Use unique names if possible.
+### 4. Use Functions to Avoid Code Duplication
+- Encapsulate reusable logic into functions instead of repeating code.
+### 5. Call Functions Sequentially for Workflow
+- Organize the order of function calls to reflect the workflow logic clearly.
+### 6. Use `return` for Exit Codes
+- Use **`return`** to specify the exit code of a function, which can be used for error handling.
+### 7. Avoid Function Overhead for Simple Tasks
+- Use functions only when needed. For simple, one-off commands, avoid wrapping them unnecessarily in a function.
