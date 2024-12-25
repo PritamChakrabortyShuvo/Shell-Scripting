@@ -991,3 +991,19 @@ In shell scripting, variables are global by default. To restrict the scope of a 
     # Use the local variable
     }
 ```
+### Example: Using Local Variables
+```bash
+    #!/bin/bash
+
+    # Define the function
+    function example_function() {
+        local message="Hello from inside the function!"
+        echo "$message"
+    }
+
+    # Call the function
+    example_function
+
+    # Try to access the variable outside the function
+    echo "$message"  # This will not work because 'message' is local to the function
+```
