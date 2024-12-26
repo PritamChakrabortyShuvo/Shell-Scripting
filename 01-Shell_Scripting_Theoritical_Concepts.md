@@ -1080,3 +1080,10 @@ OR
     [ CONDITION ]
 ```
 ## Common Uses of `test`
+### 1. File Tests
+```bash
+    test -f filename     # Checks if the file exists and is a regular file
+    test -d directory    # Checks if the directory exists
+    test -r filename     # Checks if the file is readable
+    test -w filename     # Checks if the file is writable
+```
