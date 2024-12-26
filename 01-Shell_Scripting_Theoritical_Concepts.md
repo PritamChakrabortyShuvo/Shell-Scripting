@@ -1147,3 +1147,6 @@ In shell scripting, the **`if`** statement can be used to check the success or f
         echo "Directory created successfully."
     fi
 ```
+### Explanation 
+- If the command **`mkdir new_directory`** succeeds, the message is printed.
+- If it fails, nothing happens because there is no **`else`** block.
