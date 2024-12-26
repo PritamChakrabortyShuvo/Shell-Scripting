@@ -1079,3 +1079,4 @@ OR
 ```bash
     [ CONDITION ]
 ```
+## Common Uses of `test`
