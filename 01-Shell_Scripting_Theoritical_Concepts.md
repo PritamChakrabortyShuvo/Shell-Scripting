@@ -1103,3 +1103,11 @@ OR
     test num1 -gt num2   # Greater than
     test num1 -ge num2   # Greater than or equal
 ```
+## Key Notes
+1. **`[ ]`** is a Shortcut for test:
+    - test condition is equivalent to [ condition ].
+    - Example: if [ -f file ] works the same as if test -f file.
+2. Combine **`test`** with **`$?`**:
+    - Check the result of a test command using $?.
+3. Common Use in Scripts:
+    - Often used in if statements for decision-making in scripts.
