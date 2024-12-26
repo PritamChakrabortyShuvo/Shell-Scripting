@@ -1124,3 +1124,13 @@ In shell scripting, the **`if`** statement can be used to check the success or f
         # Code to execute if the command fails
     fi
 ```
+## Example 1: Checking File Existence
+```bash
+    #!/bin/bash
+
+    if ls /nonexistent_directory; then
+        echo "Directory exists."
+    else
+        echo "Directory does not exist."
+    fi
+```
