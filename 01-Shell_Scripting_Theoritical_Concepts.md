@@ -1094,3 +1094,12 @@ OR
     test string1 = string2  # Checks if the strings are equal
     test string1 != string2 # Checks if the strings are not equal
 ```
+### 3. Numeric Comparisons
+```bash
+    test num1 -eq num2   # Equal
+    test num1 -ne num2   # Not equal
+    test num1 -lt num2   # Less than
+    test num1 -le num2   # Less than or equal
+    test num1 -gt num2   # Greater than
+    test num1 -ge num2   # Greater than or equal
+```
