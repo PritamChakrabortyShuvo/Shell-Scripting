@@ -1053,3 +1053,13 @@ The **`$?`** variable holds the exit status of the last executed command.
 - Exit Status:
     1. **`0`** indicates that the command was successful.
     2. Any non-zero value indicates an error or failure.
+## Example of `$?`
+```bash
+    #!/bin/bash
+
+    ls /nonexistent_directory
+    echo "Exit status of last command: $?"  # Output will be a non-zero value (failure)
+
+    ls /
+    echo "Exit status of last command: $?"  # Output will be 0 (success)
+```
