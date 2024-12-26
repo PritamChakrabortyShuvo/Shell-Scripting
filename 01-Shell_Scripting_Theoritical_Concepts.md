@@ -1066,3 +1066,8 @@ The **`$?`** variable holds the exit status of the last executed command.
 ## Explanation of `$?`
 1. After executing any command, **`$?`** stores the exit status.
 2. Use it to check whether the command ran successfully or encountered an error.
+# `test` Command in Shell Scripting
+The **`test`** command is used to evaluate conditions in shell scripts.
+It checks files, strings & numeric expressions, returning an exit status:
+- **0:** Condition is true.
+- **1:** Condition is false.
