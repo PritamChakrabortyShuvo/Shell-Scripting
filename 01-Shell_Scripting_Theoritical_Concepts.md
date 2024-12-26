@@ -1048,3 +1048,8 @@ In shell scripting, variables are global by default. To restrict the scope of a 
 - **Use local for Safety** : Avoid unintentional overwriting of global variables by using **`local`** inside functions.
 - **Scope Limited to Function** : **`local`** variables are destroyed when the function execution ends.
 - **Good Practice** : Always use **`local`** for variables that are only needed within a function to avoid unintended side effects.
+# `$?` in Shell Scripting
+The **`$?`** variable holds the exit status of the last executed command.
+- Exit Status:
+    1. **`0`** indicates that the command was successful.
+    2. Any non-zero value indicates an error or failure.
