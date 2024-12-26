@@ -1105,9 +1105,9 @@ OR
 ```
 ## Key Notes
 1. **`[ ]`** is a Shortcut for test:
-    - test condition is equivalent to [ condition ].
-    - Example: if [ -f file ] works the same as if test -f file.
+    - **`test condition`** is equivalent to **`[ condition ]`**.
+    - Example: **`if [ -f file ]`** works the same as **`if test -f file`**.
 2. Combine **`test`** with **`$?`**:
-    - Check the result of a test command using $?.
+    - Check the result of a **`test`** command using **`$?`**.
 3. Common Use in Scripts:
-    - Often used in if statements for decision-making in scripts.
+    - Often used in **`if`** statements for decision-making in scripts.
