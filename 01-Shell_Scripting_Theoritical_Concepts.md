@@ -1115,3 +1115,12 @@ OR
 In shell scripting, the **`if`** statement can be used to check the success or failure of a command. The **`if`** statement evaluates the exit status of the command:
 - Exit status **`0`** means the command was successful.
 - Non-zero exit status means the command failed.
+## Syntax 
+```bash
+    if COMMAND; 
+    then
+    # Code to execute if the command succeeds
+    else
+        # Code to execute if the command fails
+    fi
+```
