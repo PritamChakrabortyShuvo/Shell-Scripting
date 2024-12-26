@@ -1071,3 +1071,11 @@ The **`test`** command is used to evaluate conditions in shell scripts.
 It checks files, strings & numeric expressions, returning an exit status:
 - **0:** Condition is true.
 - **1:** Condition is false.
+## Syntax for `test`
+```bash
+    test CONDITION
+```
+OR
+```bash
+    [ CONDITION ]
+```
