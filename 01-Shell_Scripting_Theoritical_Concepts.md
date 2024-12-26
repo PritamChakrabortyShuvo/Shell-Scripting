@@ -1134,3 +1134,8 @@ In shell scripting, the **`if`** statement can be used to check the success or f
         echo "Directory does not exist."
     fi
 ```
+> **Output**
+```bash
+    ls: cannot access '/nonexistent_directory': No such file or directory
+    Directory does not exist.
+```
