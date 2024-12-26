@@ -1139,3 +1139,11 @@ In shell scripting, the **`if`** statement can be used to check the success or f
     ls: cannot access '/nonexistent_directory': No such file or directory
     Directory does not exist.
 ```
+## Using `if` Without `else`
+```bash
+    #!/bin/bash
+
+    if mkdir new_directory; then
+        echo "Directory created successfully."
+    fi
+```
