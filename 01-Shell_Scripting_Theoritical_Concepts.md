@@ -1087,3 +1087,10 @@ OR
     test -r filename     # Checks if the file is readable
     test -w filename     # Checks if the file is writable
 ```
+### 2. String Tests
+```bash
+    test -z string       # Checks if the string is empty
+    test -n string       # Checks if the string is not empty
+    test string1 = string2  # Checks if the strings are equal
+    test string1 != string2 # Checks if the strings are not equal
+```
