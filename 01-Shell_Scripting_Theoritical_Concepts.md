@@ -1111,3 +1111,7 @@ OR
     - Check the result of a **`test`** command using **`$?`**.
 3. Common Use in Scripts:
     - Often used in **`if`** statements for decision-making in scripts.
+# `if` with Commands in Shell Scripting
+In shell scripting, the **`if`** statement can be used to check the success or failure of a command. The **`if`** statement evaluates the exit status of the command:
+- Exit status **`0`** means the command was successful.
+- Non-zero exit status means the command failed.
