@@ -1063,3 +1063,6 @@ The **`$?`** variable holds the exit status of the last executed command.
     ls /
     echo "Exit status of last command: $?"  # Output will be 0 (success)
 ```
+## Explanation of `$?`
+1. After executing any command, **`$?`** stores the exit status.
+2. Use it to check whether the command ran successfully or encountered an error.
