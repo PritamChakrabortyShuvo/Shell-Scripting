@@ -1331,3 +1331,15 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
         echo "'$device' is not a character device."
     fi
 ```
+## Example 04 : Check Read Permission
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+
+    if [ -r "$file" ]; then
+        echo "The file '$file' has read permission."
+    else
+        echo "The file '$file' does not have read permission."
+    fi
+```
