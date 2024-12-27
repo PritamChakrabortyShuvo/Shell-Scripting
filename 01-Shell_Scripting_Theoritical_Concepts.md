@@ -1209,3 +1209,16 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 ```bash
     x is less than y.
 ```
+## Example 3 : Greater Than or Equal To
+```bash
+    #!/bin/bash
+
+    num1=15
+    num2=10
+
+    if [ $num1 -ge $num2 ]; then
+        echo "$num1 is greater than or equal to $num2."
+    else
+        echo "$num1 is less than $num2."
+    fi
+```
