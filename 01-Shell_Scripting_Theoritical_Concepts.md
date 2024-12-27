@@ -1307,3 +1307,15 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
         echo "The file '$file' does not exist."
     fi
 ```
+## Example 02 : Check if It Is a Block Device
+```bash
+    #!/bin/bash
+
+    device="/dev/sda"
+
+    if [ -b "$device" ]; then
+        echo "'$device' is a block device."
+    else
+        echo "'$device' is not a block device."
+    fi
+```
