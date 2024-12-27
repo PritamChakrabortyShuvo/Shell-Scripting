@@ -1226,3 +1226,16 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 ```bash
     15 is greater than or equal to 10.
 ```
+## Example 4 : Using Variables and User Input
+```bash
+    #!/bin/bash
+
+    read -p "Enter first number: " num1
+    read -p "Enter second number: " num2
+
+    if [ $num1 -ne $num2 ]; then
+        echo "The numbers are not equal."
+    else
+        echo "The numbers are equal."
+    fi
+```
