@@ -1279,3 +1279,18 @@ In shell scripting, **`[ ]`** (single square brackets) & **`[[ ]]`** (double squ
     - Reduces the risk of syntax errors.
 2. Use **`[ ]`** if you need compatibility with other POSIX-compliant shells like **`*sh`**.
 # Check File, Directory, Block Device or Permissions in Shell Scripting
+Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file properties such as existence, type & permissions. Below are the conditions used for such checks.
+## File and Directory Tests
+<div align="center">
+
+| Test Operator | Description |
+|---|---|
+| **`-e`** | Checks if a file exists. |
+| **`-d`** | Checks if it is a directory. |
+| **`-b`** | Checks if it is a block device. |
+| **`-c`** | Checks if it is a character device. |
+| **`-r`** | Checks if the file has read permission. |
+| **`-w`** | Checks if the file has write permission. |
+| **`-x`** | Checks if the file has execute permission. |
+
+</div>
