@@ -1421,7 +1421,7 @@ The AND operator is used to combine multiple conditions in shell scripting. It e
 ## Usage of the AND Operator
 1. **`&&`**: Used to execute the next command only if the previous command succeeds.
 2. **`-a`**: Used inside **`[ ]`** to combine two conditions.
-## Example : Using `&&` Between Commands
+## Example 01 : Using `&&` Between Commands
 ```bash
     #!/bin/bash
 
@@ -1438,3 +1438,9 @@ The AND operator is used to combine multiple conditions in shell scripting. It e
 - **`[ -e "$file" ]`**: Checks if the file exists.
 - **`[ -d "$dir" ]`**: Checks if the directory exists.
 - Both conditions must be true for the if block to execute
+## Example 02 : Using `&&` for Command Execution
+```bash
+    #!/bin/bash
+
+    mkdir my_dir && echo "Directory created successfully."
+```
