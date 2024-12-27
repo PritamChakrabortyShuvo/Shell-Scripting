@@ -1257,9 +1257,9 @@ In shell scripting, **`[ ]`** (single square brackets) & **`[[ ]]`** (double squ
 | **Feature** | **`[`** (Single Brackets) | **`[[`** (Double Brackets) |
 |---|---|---|
 | Compatibility | POSIX-compliant; available in all shells. | Bash and KornShell specific. |
-| String Comparison Operators | Limited (= and != for equality). | Supports regex match (=~) and extended string operations. |
-| Logical Operators | Requires -a (AND) and -o (OR). | Supports && (AND) and || (OR). |
-| Escape Characters | Requires escaping for >, <, *, and others. | Does not require escaping for these. |
+| String Comparison Operators | Limited (**`=`** and **`!=`** for equality). | Supports regex match (**`=~`**) and extended string operations. |
+| Logical Operators | Requires **`-a`** (AND) and **`-o`** (OR). | Supports **`&&`** (AND) & || (OR). |
+| Escape Characters | Requires escaping for **`>`**, **`<`**, **`*`**, and others. | Does not require escaping for these. |
 | Variable Expansion | Misinterprets empty/unset variables, so quoting is necessary. | Safer: quoting not strictly required. |
 | Error Handling | Prone to subtle errors. | More forgiving, reduces syntax issues. |
 
