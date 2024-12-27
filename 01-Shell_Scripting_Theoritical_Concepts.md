@@ -1405,9 +1405,9 @@ The **`!`** (Not Operator) in shell scripting is used to negate a condition or r
     fi
 ```
 ### Explanation 
-- ! negates the condition [ -e "$file" ].
-- If the file does not exist, the condition becomes true, and the message "The file '$file' does not exist." is displayed.
-- If the file exists, the else block executes.
+- **`!`** negates the condition **`[ -e "$file" ]`**.
+- If the file does not exist the condition becomes true & the message **`"The file '$file' does not exist."`** is displayed.
+- If the file exists the else block executes.
 ## Key Notes
 1. **Syntax :**
     - The **`!`** operator must be directly before the condition or command.
