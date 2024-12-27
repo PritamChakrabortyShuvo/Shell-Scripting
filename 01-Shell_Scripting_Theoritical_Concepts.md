@@ -1434,3 +1434,7 @@ The AND operator is used to combine multiple conditions in shell scripting. It e
         echo "Either the file or the directory does not exist."
     fi
 ```
+### Explanation 
+- **`[ -e "$file" ]`**: Checks if the file exists.
+- **`[ -d "$dir" ]`**: Checks if the directory exists.
+- Both conditions must be true for the if block to execute
