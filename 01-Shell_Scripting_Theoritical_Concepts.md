@@ -1251,7 +1251,7 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 3. For readability, double-quote variables when using them.
 # `[ ]` vs `[[ ]]` in Shell Scripting
 In shell scripting, **`[ ]`** (single square brackets) & **`[[ ]]`** (double square brackets) are used for condition testing. While they appear similar, there are important differences in their behavior, capabilities & usage.
-## Key Differences
+## Key Differences between  `[ ]` & `[[ ]]`
 <div align="center">
 
 | **Feature** | **`[`** (Single Brackets) | **`[[`** (Double Brackets) |
