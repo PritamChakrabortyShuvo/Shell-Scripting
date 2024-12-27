@@ -1343,3 +1343,15 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
         echo "The file '$file' does not have read permission."
     fi
 ```
+## Example 05 : Check Write Permission
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+
+    if [ -w "$file" ]; then
+        echo "The file '$file' has write permission."
+    else
+        echo "The file '$file' does not have write permission."
+    fi
+```
