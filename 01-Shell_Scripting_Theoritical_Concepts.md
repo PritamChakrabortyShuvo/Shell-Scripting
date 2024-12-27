@@ -1388,3 +1388,8 @@ We can combine multiple checks using logical operators:
 2. Use **`[[ ]]`** for advanced scripts as it allows more complex conditions and is safer.
 3. Logical operators (**`&&`**, **`||`**) are more readable than **`-a`** and **`-o`**.
 # Not Operator in Shell Scripting
+The **`!`** (Not Operator) in shell scripting is used to negate a condition or reverse its meaning. It is commonly used with **`if`** statements or conditional expressions to check for the opposite of a given condition.
+## Usage of the Not Operator
+1. Negates the result of a command.
+2. Can be used with **`[ ]`** or **`[[ ]]`** for conditional expressions.
+    
