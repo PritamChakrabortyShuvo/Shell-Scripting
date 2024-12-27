@@ -1188,3 +1188,7 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
         echo "a is not equal to b."
     fi
 ```
+> **Output**
+```bash
+    a is equal to b.
+```
