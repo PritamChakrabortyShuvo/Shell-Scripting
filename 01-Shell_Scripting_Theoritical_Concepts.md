@@ -1175,7 +1175,7 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 
 </div>
 
-## Example 1: Checking if Two Numbers Are Equal
+## Example 1 : Checking if Two Numbers Are Equal
 ```bash
     #!/bin/bash
 
@@ -1191,4 +1191,17 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 > **Output**
 ```bash
     a is equal to b.
+```
+## Example 2 : Comparing Two Numbers
+```bash
+    #!/bin/bash
+
+    x=10
+    y=20
+
+    if [ $x -lt $y ]; then
+        echo "x is less than y."
+    else
+        echo "x is greater than or equal to y."
+    fi
 ```
