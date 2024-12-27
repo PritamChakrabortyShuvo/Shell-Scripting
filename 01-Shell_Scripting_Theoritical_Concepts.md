@@ -1273,3 +1273,8 @@ In shell scripting, **`[ ]`** (single square brackets) & **`[[ ]]`** (double squ
         echo "Strings are not equal."
     fi
 ```
+## Which One Should We Use?
+1. Use **`[[ ]]`** whenever possible in Bash scripts:
+    - It's more powerful, flexible & safer.
+    - Reduces the risk of syntax errors.
+2. Use **`[ ]`** if you need compatibility with other POSIX-compliant shells like **`*sh`**.
