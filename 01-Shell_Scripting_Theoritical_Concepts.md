@@ -1387,7 +1387,7 @@ We can combine multiple checks using logical operators:
 1. Always quote variables (**`"$file"`**) to avoid issues with spaces or special characters in filenames.
 2. Use **`[[ ]]`** for advanced scripts as it allows more complex conditions and is safer.
 3. Logical operators (**`&&`**, **`||`**) are more readable than **`-a`** and **`-o`**.
-# Not Operator in Shell Scripting
+# Not (`!`) Operator in Shell Scripting
 The **`!`** (Not Operator) in shell scripting is used to negate a condition or reverse its meaning. It is commonly used with **`if`** statements or conditional expressions to check for the opposite of a given condition.
 ## Usage of the Not Operator
 1. Negates the result of a command.
@@ -1416,3 +1416,5 @@ The **`!`** (Not Operator) in shell scripting is used to negate a condition or r
     - If the condition returns **`0`** (success), **`!`** makes it **`1`** (failure) & vice versa.
 3. **Readability :**
     - Use parentheses or comments if the condition becomes complex for better clarity.
+# AND (`&&`) Operators in Shell Scripting
+The AND operator is used to combine multiple conditions in shell scripting. It ensures that all the specified conditions are true for the entire statement to execute.
