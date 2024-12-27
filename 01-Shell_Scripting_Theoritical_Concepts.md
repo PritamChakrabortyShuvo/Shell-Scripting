@@ -1384,6 +1384,6 @@ We can combine multiple checks using logical operators:
     fi
 ```
 ## Key Notes
-1. Always quote variables ("$file") to avoid issues with spaces or special characters in filenames.
-2. Use [[ ]] for advanced scripts as it allows more complex conditions and is safer.
-3. Logical operators (&&, ||) are more readable than -a and -o.
+1. Always quote variables (**`"$file"`**) to avoid issues with spaces or special characters in filenames.
+2. Use **`[[ ]]`** for advanced scripts as it allows more complex conditions and is safer.
+3. Logical operators (**`&&`**, **`||`**) are more readable than **`-a`** and **`-o`**.
