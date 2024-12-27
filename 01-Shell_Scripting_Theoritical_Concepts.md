@@ -1355,3 +1355,15 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
         echo "The file '$file' does not have write permission."
     fi
 ```
+## Example 06 : Check Execute Permission
+```bash
+    #!/bin/bash
+
+    file="script.sh"
+
+    if [ -x "$file" ]; then
+        echo "The file '$file' has execute permission."
+    else
+        echo "The file '$file' does not have execute permission."
+    fi
+```
