@@ -1444,3 +1444,5 @@ The AND operator is used to combine multiple conditions in shell scripting. It e
 
     mkdir my_dir && echo "Directory created successfully."
 ```
+### Explanation 
+- The second command (**`echo`**) executes only if the first command (**`mkdir`**) succeeds.
