@@ -1264,3 +1264,12 @@ In shell scripting, **`[ ]`** (single square brackets) & **`[[ ]]`** (double squ
 | Error Handling | Prone to subtle errors. | More forgiving, reduces syntax issues. |
 
 </div>
+
+## Examples of  String Comparisons Using `[[ ]]`
+```bash
+    if [[ $str1 == $str2 ]]; then
+    echo "Strings are equal."
+    else
+        echo "Strings are not equal."
+    fi
+```
