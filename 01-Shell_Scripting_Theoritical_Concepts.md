@@ -1250,3 +1250,17 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 2. Use **`[]`** for numeric comparisons & ensure spaces around operators.
 3. For readability, double-quote variables when using them.
 # `[ ]` vs `[[ ]]` in Shell Scripting
+In shell scripting, **`[ ]`** (single square brackets) & **`[[ ]]`** (double square brackets) are used for condition testing. While they appear similar, there are important differences in their behavior, capabilities & usage.
+## Key Differences
+<div align="center">
+
+| **Feature** | **`[`** (Single Brackets) | **`[[`** (Double Brackets) |
+|---|---|---|
+| Compatibility | POSIX-compliant; available in all shells. | Bash and KornShell specific. |
+| String Comparison Operators | Limited (= and != for equality). | Supports regex match (=~) and extended string operations. |
+| Logical Operators | Requires -a (AND) and -o (OR). | Supports && (AND) and || (OR). |
+| Escape Characters | Requires escaping for >, <, *, and others. | Does not require escaping for these. |
+| Variable Expansion | Misinterprets empty/unset variables, so quoting is necessary. | Safer: quoting not strictly required. |
+| Error Handling | Prone to subtle errors. | More forgiving, reduces syntax issues. |
+
+</div>
