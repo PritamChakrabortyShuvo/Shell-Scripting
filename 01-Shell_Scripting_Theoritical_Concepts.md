@@ -1367,3 +1367,7 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
         echo "The file '$file' does not have execute permission."
     fi
 ```
+## Combine Multiple Checks
+We can combine multiple checks using logical operators:
+1. **`-a`** (AND) or **`&&`**
+2. **`-o`** (OR) or **`||`**
