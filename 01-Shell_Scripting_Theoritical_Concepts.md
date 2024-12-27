@@ -1249,3 +1249,4 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 1. Always ensure variables are assigned numeric values for comparison.
 2. Use **`[]`** for numeric comparisons & ensure spaces around operators.
 3. For readability, double-quote variables when using them.
+# `[ ]` vs `[[ ]]` in Shell Scripting
