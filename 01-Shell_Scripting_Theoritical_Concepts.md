@@ -1392,4 +1392,11 @@ The **`!`** (Not Operator) in shell scripting is used to negate a condition or r
 ## Usage of the Not Operator
 1. Negates the result of a command.
 2. Can be used with **`[ ]`** or **`[[ ]]`** for conditional expressions.
-    
+## Key Notes
+1. **Syntax :**
+    - The ! operator must be directly before the condition or command.
+2. **Exit Status :**
+    - The ! operator reverses the exit status of the command or condition.
+    - If the condition returns 0 (success), ! makes it 1 (failure), and vice versa.
+3. **Readability :**
+    - Use parentheses or comments if the condition becomes complex for better clarity.
