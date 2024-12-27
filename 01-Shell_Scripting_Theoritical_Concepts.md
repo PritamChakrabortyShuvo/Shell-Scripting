@@ -1174,3 +1174,17 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
 | `>=` | Greater than or equal to |
 
 </div>
+
+## Example 1: Checking if Two Numbers Are Equal
+```bash
+    #!/bin/bash
+
+    a=5
+    b=5
+
+    if [ $a -eq $b ]; then
+        echo "a is equal to b."
+    else
+        echo "a is not equal to b."
+    fi
+```
