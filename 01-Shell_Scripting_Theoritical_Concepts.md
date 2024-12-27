@@ -1418,3 +1418,19 @@ The **`!`** (Not Operator) in shell scripting is used to negate a condition or r
     - Use parentheses or comments if the condition becomes complex for better clarity.
 # AND (`&&`) Operators in Shell Scripting
 The AND operator is used to combine multiple conditions in shell scripting. It ensures that all the specified conditions are true for the entire statement to execute.
+## Usage of the AND Operator
+1. **`&&`**: Used to execute the next command only if the previous command succeeds.
+2. **`-a`**: Used inside **`[ ]`** to combine two conditions.
+## Example : Using `&&` Between Commands
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+    dir="test_dir"
+
+    if [ -e "$file" ] && [ -d "$dir" ]; then
+        echo "The file exists, and the directory exists."
+    else
+        echo "Either the file or the directory does not exist."
+    fi
+```
