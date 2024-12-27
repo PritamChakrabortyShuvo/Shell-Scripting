@@ -1294,3 +1294,16 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
 | **`-x`** | Checks if the file has execute permission. |
 
 </div>
+
+## Example 01 : Check if a File Exists 
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+
+    if [ -e "$file" ]; then
+        echo "The file '$file' exists."
+    else
+        echo "The file '$file' does not exist."
+    fi
+```
