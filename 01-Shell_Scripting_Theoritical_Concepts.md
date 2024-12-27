@@ -1319,3 +1319,15 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
         echo "'$device' is not a block device."
     fi
 ```
+## Example 03 : Check if It Is a Character Device
+```bash
+    #!/bin/bash
+
+    device="/dev/tty"
+
+    if [ -c "$device" ]; then
+        echo "'$device' is a character device."
+    else
+        echo "'$device' is not a character device."
+    fi
+```
