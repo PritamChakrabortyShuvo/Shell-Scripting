@@ -1446,3 +1446,7 @@ The AND operator is used to combine multiple conditions in shell scripting. It e
 ```
 ### Explanation 
 - The second command (**`echo`**) executes only if the first command (**`mkdir`**) succeeds.
+## Key Notes
+1. **`&&`** is more common and widely used than **`-a`** for combining conditions.
+2. When using **`&&`** make sure both conditions are enclosed within **`[ ]`** or **`[[ ]]`**.
+3. Use parentheses for clarity in complex expressions.
