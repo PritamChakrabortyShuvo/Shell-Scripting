@@ -1205,3 +1205,7 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
         echo "x is greater than or equal to y."
     fi
 ```
+> **Output**
+```bash
+    x is less than y.
+```
