@@ -1392,6 +1392,18 @@ The **`!`** (Not Operator) in shell scripting is used to negate a condition or r
 ## Usage of the Not Operator
 1. Negates the result of a command.
 2. Can be used with **`[ ]`** or **`[[ ]]`** for conditional expressions.
+## Example :
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+
+    if ! [ -e "$file" ]; then
+        echo "The file '$file' does not exist."
+    else
+        echo "The file '$file' exists."
+    fi
+```
 ## Key Notes
 1. **Syntax :**
     - The **`!`** operator must be directly before the condition or command.
