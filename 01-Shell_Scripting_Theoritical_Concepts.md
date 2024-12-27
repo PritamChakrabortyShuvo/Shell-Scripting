@@ -1278,3 +1278,4 @@ In shell scripting, **`[ ]`** (single square brackets) & **`[[ ]]`** (double squ
     - It's more powerful, flexible & safer.
     - Reduces the risk of syntax errors.
 2. Use **`[ ]`** if you need compatibility with other POSIX-compliant shells like **`*sh`**.
+# Check File, Directory, Block Device or Permissions in Shell Scripting
