@@ -1161,4 +1161,16 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
         # Code to execute if the condition is false
     fi
 ```
+## Comparison Operators
+<div align="center">
 
+| Operator | Description |
+|---|---|
+| `==` | Equal to |
+| `!=` | Not equal to |
+| `<` | Less than |
+| `<=` | Less than or equal to |
+| `>` | Greater than |
+| `>=` | Greater than or equal to |
+
+</div>
