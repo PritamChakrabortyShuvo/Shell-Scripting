@@ -1222,3 +1222,7 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
         echo "$num1 is less than $num2."
     fi
 ```
+> **Output**
+```bash
+    15 is greater than or equal to 10.
+```
