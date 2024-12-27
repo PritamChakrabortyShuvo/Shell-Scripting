@@ -1239,3 +1239,10 @@ The **`if`** statement combined with **`[]`** can be used to perform numeric com
         echo "The numbers are equal."
     fi
 ```
+> **Output**
+```bash
+    Enter first number: 5
+    Enter second number: 10
+    The numbers are not equal.
+```
+
