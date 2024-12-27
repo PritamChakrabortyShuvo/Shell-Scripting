@@ -1151,3 +1151,14 @@ In shell scripting, the **`if`** statement can be used to check the success or f
 - If the command **`mkdir new_directory`** succeeds, the message is printed.
 - If it fails, nothing happens because there is no **`else`** block.
 # Number Comparison Example Using `if` with `[]` in Shell Scripting
+The **`if`** statement combined with **`[]`** can be used to perform numeric comparisons in shell scripts.
+## Syntax for Numeric Comparisons
+```bash
+    if [ NUMBER1 -OPERATOR NUMBER2 ]; 
+    then
+    # Code to execute if the condition is true
+    else
+        # Code to execute if the condition is false
+    fi
+```
+
