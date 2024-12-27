@@ -1371,3 +1371,15 @@ Using the if statement with **`[ ]`** or **`[[ ]]`**, we can test file propertie
 We can combine multiple checks using logical operators:
 1. **`-a`** (AND) or **`&&`**
 2. **`-o`** (OR) or **`||`**
+### Example: Check Existence and Permissions
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+
+    if [ -e "$file" ] && [ -r "$file" ] && [ -w "$file" ]; then
+        echo "The file '$file' exists and has read and write permissions."
+    else
+        echo "The file '$file' does not exist or lacks the necessary permissions."
+    fi
+```
