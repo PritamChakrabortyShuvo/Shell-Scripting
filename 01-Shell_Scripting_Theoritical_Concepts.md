@@ -1472,3 +1472,9 @@ The OR operator is used to combine multiple conditions & it ensures that if any 
 - **`[ -e "$file" ]`** : Checks if the file exists.
 - **`[ -d "$dir" ]`** : Checks if the directory exists.
 - The if block executes if any one of the conditions is **`true`**.
+## Example 02 : Using `||` for Command Execution
+```bash
+    #!/bin/bash
+
+    mkdir my_dir || echo "Failed to create the directory."
+```
