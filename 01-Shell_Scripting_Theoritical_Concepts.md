@@ -1418,7 +1418,7 @@ The **`!`** (Not Operator) in shell scripting is used to negate a condition or r
     - Use parentheses or comments if the condition becomes complex for better clarity.
 # AND (`&&`) Operators in Shell Scripting
 The AND operator is used to combine multiple conditions in shell scripting. It ensures that all the specified conditions are true for the entire statement to execute.
-## Usage of the AND Operator
+## Usage of the AND (`&&`) Operator
 1. **`&&`**: Used to execute the next command only if the previous command succeeds.
 2. **`-a`**: Used inside **`[ ]`** to combine two conditions.
 ## Example 01 : Using `&&` Between Commands
@@ -1450,3 +1450,5 @@ The AND operator is used to combine multiple conditions in shell scripting. It e
 1. **`&&`** is more common and widely used than **`-a`** for combining conditions.
 2. When using **`&&`** make sure both conditions are enclosed within **`[ ]`** or **`[[ ]]`**.
 3. Use parentheses for clarity in complex expressions.
+# OR (`||`) Operators in Shell Scripting
+The OR operator is used to combine multiple conditions & it ensures that if any one of the conditions is true, the statement will execute.
