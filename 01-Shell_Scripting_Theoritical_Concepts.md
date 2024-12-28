@@ -1468,3 +1468,7 @@ The OR operator is used to combine multiple conditions & it ensures that if any 
         echo "Neither the file nor the directory exists."
     fi
 ```
+### Explanation 
+- **`[ -e "$file" ]`** : Checks if the file exists.
+- **`[ -d "$dir" ]`** : Checks if the directory exists.
+- The if block executes if any one of the conditions is **`true`**.
