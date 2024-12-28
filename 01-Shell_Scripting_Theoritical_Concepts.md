@@ -1452,3 +1452,19 @@ The AND operator is used to combine multiple conditions in shell scripting. It e
 3. Use parentheses for clarity in complex expressions.
 # OR (`||`) Operators in Shell Scripting
 The OR operator is used to combine multiple conditions & it ensures that if any one of the conditions is true, the statement will execute.
+## Usage of the OR (`||`) Operator
+1. **`||`** : Used to execute the next command only if the previous command fails.
+2. **`-o`** : Used inside **`[ ]`** to combine two conditions.
+## Example 01 : Using `||` Between Commands
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+    dir="test_dir"
+
+    if [ -e "$file" ] || [ -d "$dir" ]; then
+        echo "Either the file exists or the directory exists."
+    else
+        echo "Neither the file nor the directory exists."
+    fi
+```
