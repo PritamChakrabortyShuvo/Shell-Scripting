@@ -1478,3 +1478,9 @@ The OR operator is used to combine multiple conditions & it ensures that if any 
 
     mkdir my_dir || echo "Failed to create the directory."
 ```
+### Explanation 
+- The second command (**`echo`**) executes only if the first command (**`mkdir`**) fails.
+## Key Notes
+1. **`||`** is more common and widely used than **`-o`** for combining conditions.
+2. When using **`||`**, make sure both conditions are enclosed within **`[ ]`** or **`[[ ]]`**.
+3. Use parentheses for clarity in complex expressions.
