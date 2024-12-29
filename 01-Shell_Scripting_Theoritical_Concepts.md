@@ -1485,4 +1485,13 @@ The OR operator is used to combine multiple conditions & it ensures that if any 
 2. When using **`||`**, make sure both conditions are enclosed within **`[ ]`** or **`[[ ]]`**.
 3. Use parentheses for clarity in complex expressions.
 # If-Else in Shell Scripting
-The if-else construct in shell scripting is used to execute a block of code based on a condition. If the condition evaluates to true, the if block executes; otherwise, the else block executes.
+The if-else construct in shell scripting is used to execute a block of code based on a condition. If the condition evaluates to true the if block executes otherwise the else block executes.
+## Syntax 
+```bash
+    if [ condition ]; 
+    then
+    # Code to execute if condition is true
+    else
+        # Code to execute if condition is false
+    fi
+```
