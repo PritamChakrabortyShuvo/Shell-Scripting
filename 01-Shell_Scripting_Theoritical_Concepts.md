@@ -1510,3 +1510,15 @@ The if-else construct in shell scripting is used to execute a block of code base
 ### Explanation
 - [ -e "$file" ]: Checks if the file exists.
 - Executes the if block if the file exists, otherwise executes the else block.
+## Example 02 : Check If a Number is Positive
+```bash
+    #!/bin/bash
+
+    number=-5
+
+    if [ $number -gt 0 ]; then
+        echo "The number is positive."
+    else
+        echo "The number is not positive."
+    fi
+```
