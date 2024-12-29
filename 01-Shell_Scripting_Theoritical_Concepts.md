@@ -1525,3 +1525,15 @@ The if-else construct in shell scripting is used to execute a block of code base
 ### Explanation
 - **`[ $number -gt 0 ]`**: Checks if the number is greater than 0.
 - Outputs the result based on whether the condition is **`true`** or **`false`**.
+## Example 03 : Check User Input
+```bash
+    #!/bin/bash
+
+    read -p "Enter your name: " name
+
+    if [ -z "$name" ]; then
+        echo "You did not enter a name."
+    else
+        echo "Hello, $name!"
+    fi
+```
