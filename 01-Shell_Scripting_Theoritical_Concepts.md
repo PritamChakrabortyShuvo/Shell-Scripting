@@ -1522,3 +1522,6 @@ The if-else construct in shell scripting is used to execute a block of code base
         echo "The number is not positive."
     fi
 ```
+### Explanation:
+- [ $number -gt 0 ]: Checks if the number is greater than 0.
+- Outputs the result based on whether the condition is true or false.
