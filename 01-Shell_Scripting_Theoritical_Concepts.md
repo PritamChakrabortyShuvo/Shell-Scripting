@@ -1537,3 +1537,6 @@ The if-else construct in shell scripting is used to execute a block of code base
         echo "Hello, $name!"
     fi
 ```
+### Explanation
+- [ -z "$name" ]: Checks if the input string is empty.
+- Outputs a message depending on whether the user entered a name or not.
