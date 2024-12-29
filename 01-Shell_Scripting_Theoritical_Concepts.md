@@ -1544,3 +1544,5 @@ The if-else construct in shell scripting is used to execute a block of code base
 1. Use **`[ ]`** for conditions or **`[[ ]]`** for advanced conditions.
 2. Always ensure proper spacing around brackets to avoid errors.
 3. Terminate the **`if-else`** construct with **`fi`**.
+## Tip
+Use the **`if-else`** construct for clear and readable decision-making logic in your shell scripts.
