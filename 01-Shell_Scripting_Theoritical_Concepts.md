@@ -1540,3 +1540,7 @@ The if-else construct in shell scripting is used to execute a block of code base
 ### Explanation
 - **`[ -z "$name" ]`** : Checks if the input string is empty.
 - Outputs a message depending on whether the user entered a name or not.
+## Key Notes
+1. Use [ and ] for conditions (or [[ and ]] for advanced conditions).
+2. Always ensure proper spacing around brackets to avoid errors.
+3. Terminate the if-else construct with fi.
