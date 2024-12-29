@@ -1507,3 +1507,6 @@ The if-else construct in shell scripting is used to execute a block of code base
         echo "The file '$file' does not exist."
     fi
 ```
+### Explanation
+- [ -e "$file" ]: Checks if the file exists.
+- Executes the if block if the file exists, otherwise executes the else block.
