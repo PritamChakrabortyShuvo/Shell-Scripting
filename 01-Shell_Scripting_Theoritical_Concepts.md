@@ -1581,3 +1581,17 @@ Nested if-else statements are used when we need to perform multiple levels of co
 ### Explanation
 - The outer **`if`** checks if the file exists.
 - The inner **`if`** checks if the file has read permission if the file exists.
+## Example 02 : Check if a Number is Positive, Negative, or Zero
+```bash
+    #!/bin/bash
+
+    read -p "Enter a number: " number
+
+    if [ $number -gt 0 ]; then
+        echo "The number is positive."
+    elif [ $number -lt 0 ]; then
+        echo "The number is negative."
+    else
+        echo "The number is zero."
+    fi
+```
