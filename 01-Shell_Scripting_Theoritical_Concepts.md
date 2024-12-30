@@ -1613,3 +1613,6 @@ Nested if-else statements are used when we need to perform multiple levels of co
         echo "You are a minor."
     fi
 ```
+### Explanation
+- The outer **`if`** checks if the user is 18 or older.
+- The inner **`if`** further categorizes the user as an adult or senior citizen.
