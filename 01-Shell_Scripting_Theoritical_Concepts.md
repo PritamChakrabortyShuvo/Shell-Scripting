@@ -1560,3 +1560,21 @@ Nested if-else statements are used when we need to perform multiple levels of co
     else
         # Code to execute if condition1 is false
     fi
+```
+## Example 01 : Check a File & Its Permissions
+```bash
+    #!/bin/bash
+
+    file="example.txt"
+
+    if [ -e "$file" ]; then
+        echo "The file '$file' exists."
+        if [ -r "$file" ]; then
+            echo "The file has read permission."
+        else
+            echo "The file does not have read permission."
+        fi
+    else
+        echo "The file '$file' does not exist."
+    fi
+```
