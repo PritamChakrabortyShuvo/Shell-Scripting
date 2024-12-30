@@ -1546,3 +1546,5 @@ The if-else construct in shell scripting is used to execute a block of code base
 3. Terminate the **`if-else`** construct with **`fi`**.
 ## Tip
 Use the **`if-else`** construct for clear and readable decision-making logic in your shell scripts.
+# Nested If-Else in Shell Scripting
+Nested if-else statements are used when we need to perform multiple levels of condition checking. This allows us to evaluate one condition inside another.
