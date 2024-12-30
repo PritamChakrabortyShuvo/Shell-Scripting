@@ -1597,3 +1597,19 @@ Nested if-else statements are used when we need to perform multiple levels of co
 ```
 ### Explanation
 - The script checks if the number is positive, negative, or zero using multiple levels of conditions.
+## Example 03 : Check User Age
+```bash
+    #!/bin/bash
+
+    read -p "Enter your age: " age
+
+    if [ $age -ge 18 ]; then
+        if [ $age -lt 60 ]; then
+            echo "You are an adult."
+        else
+            echo "You are a senior citizen."
+        fi
+    else
+        echo "You are a minor."
+    fi
+```
