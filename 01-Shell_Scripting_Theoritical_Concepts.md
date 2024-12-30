@@ -1595,3 +1595,5 @@ Nested if-else statements are used when we need to perform multiple levels of co
         echo "The number is zero."
     fi
 ```
+### Explanation
+- The script checks if the number is positive, negative, or zero using multiple levels of conditions.
