@@ -1689,7 +1689,7 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
 ### Explanation
 - The script checks the type of file (regular file, directory, block device, character device) using **`elif`**.
 ## Key Points
-1. **Sequential Evaluation :** Conditions are checked one by one in order until a true condition is found.
-2. **Mutual Exclusivity :** Once a true condition is found, other conditions are not evaluated.
+1. **Sequential Evaluation :** Conditions are checked one by one in order until a **`true`** condition is found.
+2. **Mutual Exclusivity :** Once a **`true`** condition is found, other conditions are not evaluated.
 3. **Use Case :** Ideal for scenarios with multiple conditions.
-4. **Readable Alternative :** elif reduces the need for deeply nested if-else blocks, improving readability.
+4. **Readable Alternative :** **`elif`** reduces the need for deeply nested **`if-else`** blocks, improving readability.
