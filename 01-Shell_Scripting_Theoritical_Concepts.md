@@ -1666,3 +1666,5 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
         echo "Grade: F"
     fi
 ```
+### Explanation
+- Conditions are evaluated in order. Once a condition is **`true`** the corresponding block is executed & the rest are skipped.
