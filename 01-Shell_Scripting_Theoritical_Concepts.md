@@ -1622,4 +1622,15 @@ Nested if-else statements are used when we need to perform multiple levels of co
 3. Use proper indentation for better readability.
 # Elif in Shell Scripting
 The **`elif`** (short for "**`else if`**") construct in shell scripting allows us to check multiple conditions sequentially. It simplifies nested **`if-else`** statements by avoiding excessive indentation.
-
+## Syntax
+```bash
+    if [ condition1 ]; then
+    # Code to execute if condition1 is true
+    elif [ condition2 ]; then
+        # Code to execute if condition2 is true
+    elif [ condition3 ]; then
+        # Code to execute if condition3 is true
+    else
+        # Code to execute if all conditions are false
+    fi
+```
