@@ -1767,3 +1767,21 @@ The case statement in shell scripting is used to execute specific blocks of code
 4. **Syntax** :
 - Each case ends with **`;;`**.
 - The **`esac`** keyword closes the **`case`** block.
+### Output
+- **Example Command**
+```bash
+    ./script.sh start
+```
+> **Result**
+```bash
+    Going to start
+    Action one: Initialization
+```
+- **Invalid Input**
+```bash
+    ./script.sh unknown
+```
+> **Result**
+```bash
+    Invalid action. Please use start, stop, reload, or restart.
+```
