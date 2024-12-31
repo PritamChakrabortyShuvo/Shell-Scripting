@@ -1668,3 +1668,21 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
 ```
 ### Explanation
 - Conditions are evaluated in order. Once a condition is **`true`** the corresponding block is executed & the rest are skipped.
+## Example 03 : File Type Checker
+```bash
+    #!/bin/bash
+
+    read -p "Enter a file path: " file
+
+    if [ -f "$file" ]; then
+        echo "It's a regular file."
+    elif [ -d "$file" ]; then
+        echo "It's a directory."
+    elif [ -b "$file" ]; then
+        echo "It's a block device."
+    elif [ -c "$file" ]; then
+        echo "It's a character device."
+    else
+        echo "Unknown file type or does not exist."
+    fi
+```
