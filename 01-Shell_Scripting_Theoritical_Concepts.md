@@ -1686,3 +1686,5 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
         echo "Unknown file type or does not exist."
     fi
 ```
+### Explanation
+- The script checks the type of file (regular file, directory, block device, character device) using elif.
