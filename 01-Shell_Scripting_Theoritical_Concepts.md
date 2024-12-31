@@ -1727,4 +1727,29 @@ The case statement in shell scripting is used to execute specific blocks of code
 - Matches if no other patterns match. Optional but recommended.
 6. **`esac`**:
 - Marks the end of the **`case`** block.
+## Example : Case Statement with Action Commands
+```bash
+    #!/bin/bash
 
+    action=${1}  # Accept input as the first argument
+    # Define possible actions: start, stop, restart, reload
+
+    case ${action} in
+        start)
+            echo "Going to start"
+            echo "Action one: Initialization"
+            ;;
+        stop)
+            echo "Going to stop"
+            ;;
+        reload)
+            echo "Going to reload"
+            ;;
+        restart)
+            echo "Going to restart"
+            ;;
+        *)
+            echo "Invalid action. Please use start, stop, reload, or restart."
+            ;;
+    esac
+```
