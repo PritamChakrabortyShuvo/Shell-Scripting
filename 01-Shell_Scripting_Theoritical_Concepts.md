@@ -1650,3 +1650,19 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
 ```
 ### Explanation
 - The script checks if the number is positive, negative, or zero using **`if`**, **`elif`** & **`else`**.
+## Example 02 : Grade Checker
+```bash
+    #!/bin/bash
+
+    read -p "Enter your marks: " marks
+
+    if [ $marks -ge 90 ]; then
+        echo "Grade: A"
+    elif [ $marks -ge 75 ]; then
+        echo "Grade: B"
+    elif [ $marks -ge 50 ]; then
+        echo "Grade: C"
+    else
+        echo "Grade: F"
+    fi
+```
