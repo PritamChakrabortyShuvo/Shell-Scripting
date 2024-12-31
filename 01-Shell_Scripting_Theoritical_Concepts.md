@@ -1697,3 +1697,20 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
 - Use **`elif`** for scenarios with multiple exclusive conditions & combine with else to handle all remaining cases.
 # Case Statement in Shell Script
 The case statement in shell scripting is used to execute specific blocks of code based on a pattern match. It's an alternative to multiple **`if-elif`** conditions & is useful when dealing with multiple discrete values.
+## Syntax
+```bash
+    case <variable or value> in
+        pattern1)
+            # Commands to execute if pattern1 matches
+            ;;
+        pattern2)
+            # Commands to execute if pattern2 matches
+            ;;
+        pattern3|pattern4)
+            # Commands to execute if pattern3 or pattern4 matches
+            ;;
+        *)
+            # Default case (if no pattern matches)
+            ;;
+    esac
+```
