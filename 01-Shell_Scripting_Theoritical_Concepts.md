@@ -1755,15 +1755,15 @@ The case statement in shell scripting is used to execute specific blocks of code
 ```
 ### Explanation
 1. **Input** :
-- The script takes an argument (e.g., start, stop, etc.) from the command line using $1.
+- The script takes an argument (e.g., **`start`**, **`stop`**, etc.) from the command line using **`$1`**.
 2. **Case Matching** :
-- The case statement matches the input (${action}) against the listed patterns:
+- The case statement matches the input **`(${action})`** against the listed patterns:
     - **`start)`** - Executes the block under start.
     - **`stop)`** - Executes the block under stop.
     - **`reload)`** - Executes the block under reload.
     - **`restart)`** - Executes the block under restart.
 3. **Default Case** :
-- The *) acts as a default case for any unmatched input.
+- The **`*)`** acts as a default case for any unmatched input.
 4. **Syntax** :
-- Each case ends with ;;.
-- The esac keyword closes the case block.
+- Each case ends with **`;;`**.
+- The **`esac`** keyword closes the **`case`** block.
