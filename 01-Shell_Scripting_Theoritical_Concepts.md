@@ -1589,7 +1589,7 @@ Nested if-else statements are used when we need to perform multiple levels of co
 
     if [ $number -gt 0 ]; then
         echo "The number is positive."
-    elif [ $number -lt 0 ]; then
+    else [ $number -lt 0 ]; then
         echo "The number is negative."
     else
         echo "The number is zero."
@@ -1620,4 +1620,3 @@ Nested if-else statements are used when we need to perform multiple levels of co
 1. Nested **`if-else`** structures allow for deeper levels of condition checking.
 2. Avoid overly complex nesting; it can make the script harder to read.
 3. Use proper indentation for better readability.
-4. Use **`elif`** when possible to simplify logic and reduce the need for multiple levels of nesting.
