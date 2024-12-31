@@ -1649,4 +1649,4 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
     fi
 ```
 ### Explanation
-- The script checks if the number is positive, negative, or zero using if, elif & else.
+- The script checks if the number is positive, negative, or zero using **`if`**, **`elif`** & **`else`**.
