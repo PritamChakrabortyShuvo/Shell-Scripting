@@ -1714,3 +1714,17 @@ The case statement in shell scripting is used to execute specific blocks of code
             ;;
     esac
 ```
+### Explanation of Syntax
+1. **`case <value> in`**:
+- Replace <value> with the variable or string you want to match.
+2. **Patterns (`pattern1`, `pattern2`, etc.)**:
+- Define the cases you want to match. Patterns can use wildcards like *, ?, or ranges [a-z].
+3. **Commands** :
+- Place the commands to execute if the pattern matches.
+4. **`;;`** :
+- Used to end a particular case.
+5. **`Default Case (*)`** :
+- Matches if no other patterns match. Optional but recommended.
+6. **`esac`**:
+- Marks the end of the case block.
+
