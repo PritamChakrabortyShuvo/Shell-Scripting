@@ -1693,3 +1693,5 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
 2. **Mutual Exclusivity :** Once a **`true`** condition is found, other conditions are not evaluated.
 3. **Use Case :** Ideal for scenarios with multiple conditions.
 4. **Readable Alternative :** **`elif`** reduces the need for deeply nested **`if-else`** blocks, improving readability.
+## Tip
+- Use **`elif`** for scenarios with multiple exclusive conditions & combine with else to handle all remaining cases.
