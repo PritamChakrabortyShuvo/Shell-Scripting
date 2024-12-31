@@ -1687,4 +1687,4 @@ The **`elif`** (short for "**`else if`**") construct in shell scripting allows u
     fi
 ```
 ### Explanation
-- The script checks the type of file (regular file, directory, block device, character device) using elif.
+- The script checks the type of file (regular file, directory, block device, character device) using **`elif`**.
