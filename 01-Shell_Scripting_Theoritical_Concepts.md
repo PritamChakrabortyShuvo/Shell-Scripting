@@ -64,6 +64,10 @@ The **`bash +x <filename>`** command is used to execute a script file in debug m
 ### Explanation
 1. **`+ name=Gaurav`**: Shows the variable assignment step.
 2. **`+ echo 'Hello, Gaurav!'`** : Displays the **`echo`** command after variable substitution.
+## Use Case
+Use bash **`+x`** to debug when:
+- A script is not working as expected.
+- You want to see how variables, loops, or conditions are evaluated step-by-step.
 # First Shell-Script
 Here are the steps to create and run your first shell script from scratch :
 ## Step 1 : Create a Text Editor to Create a Script
