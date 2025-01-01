@@ -1811,3 +1811,11 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
         ((count++))  # Increment count
     done
 ```
+> **Output**
+```bash
+    Count: 1
+    Count: 2
+    Count: 3
+    Count: 4
+    Count: 5
+```
