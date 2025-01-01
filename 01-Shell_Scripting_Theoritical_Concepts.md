@@ -44,6 +44,23 @@ The **`bash +x <filename>`** command is used to execute a script file in debug m
 3. **How it Helps** :
     - Helps debug issues in your script by providing a detailed log of each step.
     - Displays expanded variables and evaluated conditions.
+## Example 
+> **Script File (`example.sh`)**
+```bash
+    #!/bin/bash
+    name="Pritam"
+    echo "Hello, $name!"
+```
+> **Run with Debug Mode**
+```bash
+    bash +x example.sh
+```
+> **Output**
+```bash
+    + name=Pritam
+    + echo 'Hello, Pritam!'
+    Hello, Pritam!
+```
 # First Shell-Script
 Here are the steps to create and run your first shell script from scratch :
 ## Step 1 : Create a Text Editor to Create a Script
