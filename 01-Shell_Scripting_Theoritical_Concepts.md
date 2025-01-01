@@ -1874,3 +1874,22 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
 1. The **`read -p`** command prompts the user to input a number.
 2. The script assigns the input to the variable **`num`**.
 3. The rest of the script functions the same as before, generating the table for the user-provided number.
+### Example Input & Output
+> **Input**
+```bash
+    Enter the number to print its multiplication table: 5
+```
+> **Output**
+```bash
+    Multiplication Table of 5
+    5 x 1 = 5
+    5 x 2 = 10
+    5 x 3 = 15
+    5 x 4 = 20
+    5 x 5 = 25
+    5 x 6 = 30
+    5 x 7 = 35
+    5 x 8 = 40
+    5 x 9 = 45
+    5 x 10 = 50
+```
