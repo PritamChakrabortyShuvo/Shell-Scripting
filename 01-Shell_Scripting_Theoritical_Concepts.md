@@ -1870,3 +1870,7 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
         ((i++))
     done
 ```
+### Explanation
+1. The **`read -p`** command prompts the user to input a number.
+2. The script assigns the input to the variable **`num`**.
+3. The rest of the script functions the same as before, generating the table for the user-provided number.
