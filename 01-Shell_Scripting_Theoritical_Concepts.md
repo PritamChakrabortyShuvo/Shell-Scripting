@@ -1819,3 +1819,14 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
     Count: 4
     Count: 5
 ```
+## Example 02 : Reading a File Line by Line
+```bash
+    #!/bin/bash
+
+    filename="example.txt"
+
+    while read line
+    do
+        echo "Line: $line"
+    done < $filename
+```
