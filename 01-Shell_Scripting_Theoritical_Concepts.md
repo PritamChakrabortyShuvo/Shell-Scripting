@@ -1844,3 +1844,29 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
 ```
 ### Explanation
 - The loop runs indefinitely because the condition (**`true`**) is always true. You can stop the script using **`CTRL+C`**.
+## Example 04 : Table of a Number
+```bash
+    #!/bin/bash
+
+    # Take the number as input from the user
+    read -p "Enter the number to print its multiplication table: " num
+
+    # Set the limit for the table
+    limit=10
+    i=1
+
+    echo "Multiplication Table of $num"
+
+    # Use while loop to print the table
+    while [ $i -le $limit ]
+    do
+        # Calculate the multiplication
+        result=$((num * i))
+        
+        # Print the result
+        echo "$num x $i = $result"
+        
+        # Increment the counter
+        ((i++))
+    done
+```
