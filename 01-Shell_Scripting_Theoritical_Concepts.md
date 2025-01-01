@@ -1842,3 +1842,5 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
         sleep 1
     done
 ```
+### Explanation
+- The loop runs indefinitely because the condition (**`true`**) is always true. You can stop the script using **`CTRL+C`**.
