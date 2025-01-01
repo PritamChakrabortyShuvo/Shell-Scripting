@@ -1799,3 +1799,15 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
     - The loop continues to run as long as the condition evaluates to true.
 2. **`do`** & **`done`**:
     - Enclose the block of commands that need to be executed.
+## Example 01 : Simple Counter
+```bash
+    #!/bin/bash
+
+    count=1
+
+    while [ $count -le 5 ]
+    do
+        echo "Count: $count"
+        ((count++))  # Increment count
+    done
+```
