@@ -1830,3 +1830,5 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
         echo "Line: $line"
     done < $filename
 ```
+### Explanation
+- Reads each line from **`example.txt`** & processes it inside the loop.
