@@ -1832,3 +1832,13 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
 ```
 ### Explanation
 - Reads each line from **`example.txt`** & processes it inside the loop.
+## Example 03 : Infinite While Loop
+```bash
+    #!/bin/bash
+
+    while true
+    do
+        echo "Press [CTRL+C] to stop..."
+        sleep 1
+    done
+```
