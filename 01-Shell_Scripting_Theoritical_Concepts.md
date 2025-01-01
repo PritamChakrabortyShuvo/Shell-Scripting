@@ -1794,3 +1794,8 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
         # Commands to execute
     done
 ```
+### Explanation
+1. **`while [ condition ]`**:
+    - The loop continues to run as long as the condition evaluates to true.
+2. **`do`** & **`done`**:
+    - Enclose the block of commands that need to be executed.
