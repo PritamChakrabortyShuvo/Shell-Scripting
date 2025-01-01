@@ -1785,3 +1785,5 @@ The case statement in shell scripting is used to execute specific blocks of code
 ```bash
     Invalid action. Please use start, stop, reload, or restart.
 ```
+# While Loop in Shell Script
+The **`while`** loop in shell scripting is used to repeatedly execute a block of commands as long as a given condition is true.
