@@ -33,6 +33,17 @@ Open a **Terminal** on **Linux** & **Run**
 The Output will show the **`bash`** name of Current Linux Operating System.
 # Debugging Shell Scripts Using `bash +x`
 The **`bash +x <filename>`** command is used to execute a script file in debug mode. The **`+x`** flag tells Bash to print each command (and its expanded arguments) before executing it. This is helpful for debugging shell scripts to understand how they are being processed.
+## Key Points About `bash +x`
+1. **Debug Mode** :
+    - Enables the debugging feature in Bash.
+    - Shows the commands being executed along with any substitutions (e.g., variables, expansions).
+2. **Syntax** :
+```bash
+    bash +x script_name.sh
+```
+3. **How it Helps** :
+    - Helps debug issues in your script by providing a detailed log of each step.
+    - Displays expanded variables and evaluated conditions.
 # First Shell-Script
 Here are the steps to create and run your first shell script from scratch :
 ## Step 1 : Create a Text Editor to Create a Script
