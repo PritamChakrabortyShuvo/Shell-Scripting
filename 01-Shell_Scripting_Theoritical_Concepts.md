@@ -1956,10 +1956,10 @@ The **`until`** loop in shell scripting executes a block of commands repeatedly 
     echo "Until loop is complete."
 ```
 ### Explanation
-1. **Initialization**: The variable counter is initialized to 1.
-2. **Condition**: The loop runs until counter is greater than 5.
-3. **Execution**: Inside the loop, the value of counter is printed, and it is incremented by 1 in each iteration.
-4. **Completion**: When the condition becomes true (counter > 5), the loop exits.
+1. **Initialization**: The variable **`counter`** is initialized to 1.
+2. **Condition**: The loop runs until **`counter`** is greater than 5.
+3. **Execution**: Inside the loop, the value of **`counter`** is printed, and it is incremented by 1 in each iteration.
+4. **Completion**: When the condition becomes true (**`counter`** > 5), the loop exits.
 > **Output**
 ```bash
     Counter: 1
