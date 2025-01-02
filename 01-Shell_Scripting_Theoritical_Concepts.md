@@ -2065,3 +2065,6 @@ This script loops through the output of a command.
     User: bin
     ...
 ```
+## Explanation
+1. The **`for`** loop assigns each item in the list to the variable and executes the block of commands.
+2. It is versatile and can iterate over strings, numbers, files, or command outputs.
