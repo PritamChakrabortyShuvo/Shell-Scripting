@@ -1978,3 +1978,13 @@ The **`for`** loop in shell scripting is used to iterate over a list of items, s
         # Commands to execute
     done
 ```
+## Example 01 : Iterate Over a List of Numbers
+This script prints numbers from 1 to 5 using a **`for`** loop.
+```bash
+    #!/bin/bash
+
+    for number in 1 2 3 4 5
+    do
+        echo "Number: $number"
+    done
+```
