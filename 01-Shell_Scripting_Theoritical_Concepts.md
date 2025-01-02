@@ -1971,3 +1971,10 @@ The **`until`** loop in shell scripting executes a block of commands repeatedly 
 ```
 # For Loop in Shell Script
 The **`for`** loop in shell scripting is used to iterate over a list of items, such as numbers, strings, files or commands & execute a block of code for each item.
+## Syntax
+```bash
+    for variable in list
+    do
+        # Commands to execute
+    done
+```
