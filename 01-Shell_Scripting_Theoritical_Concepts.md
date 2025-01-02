@@ -1932,3 +1932,10 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
 ```
 # Until Loop in Shell Script
 The **`until`** loop in shell scripting executes a block of commands repeatedly until the specified condition becomes true. It works opposite to the **`while`** loop.
+## Syntax
+```bash
+    until [ condition ]
+    do
+        # Commands to execute
+    done
+```
