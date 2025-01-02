@@ -1930,3 +1930,5 @@ The **`while`** loop in shell scripting is used to repeatedly execute a block of
     5 x 9 = 45
     5 x 10 = 50
 ```
+# Until Loop in Shell Script
+The **`until`** loop in shell scripting executes a block of commands repeatedly until the specified condition becomes true. It works opposite to the **`while`** loop.
