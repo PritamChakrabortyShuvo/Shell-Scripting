@@ -2080,3 +2080,23 @@ Both **`$@`** & **`$*`** are used to represent all the command-line arguments pa
 | Use Case | Recommended for iterating over arguments. | Used when arguments are treated as a single string. |
 
 </div>
+
+## Example Script
+```bash
+    #!/bin/bash
+
+    echo "\$@: $@"
+    echo "\$*: $*"
+
+    echo "Loop with \$@:"
+    for arg in "$@"
+    do
+        echo "$arg"
+    done
+
+    echo "Loop with \$*:"
+    for arg in "$*"
+    do
+        echo "$arg"
+    done
+```
