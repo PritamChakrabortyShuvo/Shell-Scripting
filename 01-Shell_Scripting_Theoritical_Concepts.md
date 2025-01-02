@@ -1988,3 +1988,11 @@ This script prints numbers from 1 to 5 using a **`for`** loop.
         echo "Number: $number"
     done
 ```
+> **Output**
+```output
+    Number: 1
+    Number: 2
+    Number: 3
+    Number: 4
+    Number: 5
+```
