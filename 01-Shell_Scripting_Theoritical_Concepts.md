@@ -2048,3 +2048,13 @@ This script lists all **`.txt`** files in the current directory.
     File: file2.txt
     File: file3.txt
 ```
+## Example 05 : Using Command Substitution
+This script loops through the output of a command.
+```bash
+    #!/bin/bash
+
+    for user in $(cat /etc/passwd | cut -d: -f1)
+    do
+        echo "User: $user"
+    done
+```
