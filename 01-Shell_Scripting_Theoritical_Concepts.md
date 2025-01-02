@@ -1939,3 +1939,19 @@ The **`until`** loop in shell scripting executes a block of commands repeatedly 
         # Commands to execute
     done
 ```
+## Example : Prints Numbers from 1 to 5
+```bash
+    #!/bin/bash
+
+    # Initialize a variable
+    counter=1
+
+    # Loop until the condition becomes true
+    until [ $counter -gt 5 ]
+    do
+        echo "Counter: $counter"
+        ((counter++))  # Increment the counter
+    done
+
+    echo "Until loop is complete."
+```
