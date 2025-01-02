@@ -2014,3 +2014,13 @@ The **`{start..end}`** syntax is used to specify a range of numbers.
     Number: 4
     Number: 5
 ```
+## Example 03 : Increment a Range
+You can define a step value with **`{start..end..step}`**.
+```bash
+    #!/bin/bash
+
+    for number in {1..10..2}
+    do
+        echo "Number: $number"
+    done
+```
