@@ -2113,3 +2113,9 @@ Both **`$@`** & **`$*`** are used to represent all the command-line arguments pa
     Loop with $*:
     arg 1 arg 2 arg 3
 ```
+### Exaplanation
+1. **Without Quotes** :
+- $@ and $* behave similarly when not quoted.
+2. **With Quotes** :
+- $@ treats each argument as separate (preserves individual quoting).
+- $* combines all arguments into a single string with spaces.
