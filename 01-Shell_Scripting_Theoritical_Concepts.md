@@ -2032,3 +2032,13 @@ You can define a step value with **`{start..end..step}`**.
     Number: 7
     Number: 9
 ```
+## Example 04 : Iterate Over Files in a Directory
+This script lists all **`.txt`** files in the current directory.
+```bash
+    #!/bin/bash
+
+    for file in *.txt
+    do
+        echo "File: $file"
+    done
+```
