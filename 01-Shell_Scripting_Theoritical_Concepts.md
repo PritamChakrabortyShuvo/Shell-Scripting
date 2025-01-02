@@ -2115,7 +2115,7 @@ Both **`$@`** & **`$*`** are used to represent all the command-line arguments pa
 ```
 ### Exaplanation
 1. **Without Quotes** :
-- $@ and $* behave similarly when not quoted.
+- **`$@`** & **`$*`** behave similarly when not quoted.
 2. **With Quotes** :
-- $@ treats each argument as separate (preserves individual quoting).
-- $* combines all arguments into a single string with spaces.
+- **`$@`** treats each argument as separate (preserves individual quoting).
+- **`$*`** combines all arguments into a single string with spaces.
