@@ -2120,5 +2120,5 @@ Both **`$@`** & **`$*`** are used to represent all the command-line arguments pa
 - **`$@`** treats each argument as separate (preserves individual quoting).
 - **`$*`** combines all arguments into a single string with spaces.
 ## Key Recommendation
-1. Use "$@" when passing or iterating over arguments, as it preserves the structure of arguments.
-2. Use "$*" only when you want all arguments as a single string.
+1. Use **`"$@"`** when passing or iterating over arguments, as it preserves the structure of arguments.
+2. Use **`"$*"`** only when you want all arguments as a single string.
