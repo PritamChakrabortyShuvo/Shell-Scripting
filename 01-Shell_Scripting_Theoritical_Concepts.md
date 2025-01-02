@@ -1955,3 +1955,12 @@ The **`until`** loop in shell scripting executes a block of commands repeatedly 
 
     echo "Until loop is complete."
 ```
+> **Output**
+```bash
+    Counter: 1
+    Counter: 2
+    Counter: 3
+    Counter: 4
+    Counter: 5
+    Until loop is complete.
+```
