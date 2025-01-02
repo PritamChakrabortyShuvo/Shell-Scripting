@@ -2058,3 +2058,10 @@ This script loops through the output of a command.
         echo "User: $user"
     done
 ```
+> **Output**
+```output
+    User: root
+    User: daemon
+    User: bin
+    ...
+```
