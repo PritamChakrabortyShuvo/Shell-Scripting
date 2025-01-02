@@ -2100,3 +2100,16 @@ Both **`$@`** & **`$*`** are used to represent all the command-line arguments pa
         echo "$arg"
     done
 ```
+> **Output**
+```output
+    $@: arg 1 arg 2 arg 3
+    $*: arg 1 arg 2 arg 3
+
+    Loop with $@:
+    arg 1
+    arg 2
+    arg 3
+
+    Loop with $*:
+    arg 1 arg 2 arg 3
+```
