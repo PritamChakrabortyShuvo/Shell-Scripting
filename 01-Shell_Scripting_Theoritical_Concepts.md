@@ -2070,4 +2070,13 @@ This script loops through the output of a command.
 2. It is versatile and can iterate over strings, numbers, files, or command outputs.
 # Difference Between `$@` & `$*` in Shell Scripting
 Both **`$@`** & **`$*`** are used to represent all the command-line arguments passed to a shell script or function. However, there is a subtle difference between how they handle quoting when expanded.
+## Key Differences
+<div align="center">
 
+| Feature | **`$@`** | **`$*`** |
+|---|---|---|
+| Expansion Behavior | Treats each argument as a separate entity. | Treats all arguments as a single string. |
+| Quoted Behavior | Preserves quotes around individual arguments. | Combines all arguments into a single string with spaces in between. |
+| Use Case | Recommended for iterating over arguments. | Used when arguments are treated as a single string. |
+
+</div>
