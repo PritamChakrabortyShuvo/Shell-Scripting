@@ -2042,3 +2042,9 @@ This script lists all **`.txt`** files in the current directory.
         echo "File: $file"
     done
 ```
+> **Output**
+```output
+    File: file1.txt
+    File: file2.txt
+    File: file3.txt
+```
