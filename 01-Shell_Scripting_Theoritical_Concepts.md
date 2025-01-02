@@ -2024,3 +2024,11 @@ You can define a step value with **`{start..end..step}`**.
         echo "Number: $number"
     done
 ```
+> **Output**
+```bash
+    Number: 1
+    Number: 3
+    Number: 5
+    Number: 7
+    Number: 9
+```
