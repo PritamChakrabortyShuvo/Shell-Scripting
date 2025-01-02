@@ -2006,3 +2006,11 @@ The **`{start..end}`** syntax is used to specify a range of numbers.
         echo "Number: $number"
     done
 ```
+> **Output**
+```output
+    Number: 1
+    Number: 2
+    Number: 3
+    Number: 4
+    Number: 5
+```
