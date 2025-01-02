@@ -1996,3 +1996,13 @@ This script prints numbers from 1 to 5 using a **`for`** loop.
     Number: 4
     Number: 5
 ```
+## Example 02 : Using a Range of Numbers
+The **`{start..end}`** syntax is used to specify a range of numbers.
+```bash
+    #!/bin/bash
+
+    for number in {1..5}
+    do
+        echo "Number: $number"
+    done
+```
