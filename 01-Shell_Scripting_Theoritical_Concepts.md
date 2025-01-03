@@ -2067,7 +2067,7 @@ This script loops through the output of a command.
 ```
 ## Explanation
 1. The **`for`** loop assigns each item in the list to the variable and executes the block of commands.
-2. It is versatile and can iterate over strings, numbers, files, or command outputs.
+2. It is versatile and can iterate over strings, numbers, files or command outputs.
 # Difference Between `$@` & `$*` in Shell Scripting
 Both **`$@`** & **`$*`** are used to represent all the command-line arguments passed to a shell script or function. However, there is a subtle difference between how they handle quoting when expanded.
 ## Key Differences
