@@ -2352,3 +2352,8 @@ The **`select`** command in shell scripting is used to create a menu-driven inte
         # Commands to execute for each option
     done
 ```
+## Works Process
+1. Displays a numbered menu for the options in the list.
+2. Waits for the user to input a number corresponding to a choice.
+3. Stores the selected option in the variable (**`variable_name`**).
+4. Executes the commands inside the **`do-done`** block.
