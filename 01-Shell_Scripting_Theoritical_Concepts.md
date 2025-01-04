@@ -2263,3 +2263,19 @@ We can also nest **`while`**, **`until`** or any combination of loop types.
     Outer loop: 3, Inner loop: 2
     Outer loop: 3, Inner loop: 3
 ```
+## Example 02 : Nested `while` Loop
+```bash
+    #!/bin/bash
+
+    outer=1
+    while [ $outer -le 3 ]  # Outer loop
+    do
+        inner=1
+        while [ $inner -le 2 ]  # Inner loop
+        do
+            echo "Outer loop: $outer, Inner loop: $inner"
+            ((inner++))
+        done
+        ((outer++))
+    done
+```
