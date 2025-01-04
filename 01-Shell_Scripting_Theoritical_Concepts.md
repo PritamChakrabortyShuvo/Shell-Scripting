@@ -2492,3 +2492,10 @@ The **`set -x`** option enables a debugging mode that prints each command and it
     mkdir /some/nonexistent/path  # This will fail
     echo "This line will not execute."
 ```
+> **Output**
+```output
+    + echo "Starting script..."
+    Starting script...
+    + mkdir /some/nonexistent/path
+    mkdir: cannot create directory '/some/nonexistent/path': No such file or directory
+```
