@@ -2332,3 +2332,14 @@ We can also nest **`while`**, **`until`** or any combination of loop types.
     i: 2, j: 1
     i: 3, j: 1
 ```
+## Key Points
+1. **Execution Flow**
+- The outer loop runs first.
+- For each iteration of the outer loop, the inner loop runs completely.
+2. **Control Statements**
+- **`break`**: Can be used to exit from inner or outer loops.
+- **`continue`**: Skips the rest of the current iteration but does not terminate the loop.
+3. **Use Cases**
+- Processing tables or grids.
+- Iterating through combinations of two lists.
+- Handling hierarchical data like directories & files.
