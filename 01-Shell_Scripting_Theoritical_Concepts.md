@@ -2415,3 +2415,36 @@ The **`select`** command in shell scripting is used to create a menu-driven inte
 - The **`*`** wildcard lists all files in the current directory.
 - User selects a file by its corresponding number.
 - The script displays the content of the selected file.
+## Example 03 : Directory Operations
+```bash
+    #!/bin/bash
+
+    echo "Choose a directory operation:"
+    select option in "Create Directory" "List Directory" "Remove Directory" "Quit"
+    do
+        case $option in
+            "Create Directory")
+                echo "Enter directory name:"
+                read dir_name
+                mkdir "$dir_name"
+                echo "Directory '$dir_name' created."
+                ;;
+            "List Directory")
+                ls
+                ;;
+            "Remove Directory")
+                echo "Enter directory name:"
+                read dir_name
+                rmdir "$dir_name"
+                echo "Directory '$dir_name' removed."
+                ;;
+            "Quit")
+                echo "Exiting..."
+                break
+                ;;
+            *)
+                echo "Invalid choice. Please try again."
+                ;;
+        esac
+    done
+```
