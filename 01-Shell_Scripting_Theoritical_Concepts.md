@@ -2326,3 +2326,9 @@ We can also nest **`while`**, **`until`** or any combination of loop types.
         done
     done
 ```
+> **Output**
+```output
+    i: 1, j: 1
+    i: 2, j: 1
+    i: 3, j: 1
+```
