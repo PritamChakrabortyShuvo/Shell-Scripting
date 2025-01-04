@@ -2411,3 +2411,7 @@ The **`select`** command in shell scripting is used to create a menu-driven inte
         fi
     done
 ```
+### Explanation
+- The **`*`** wildcard lists all files in the current directory.
+- User selects a file by its corresponding number.
+- The script displays the content of the selected file.
