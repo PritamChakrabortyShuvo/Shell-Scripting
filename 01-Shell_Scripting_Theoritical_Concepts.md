@@ -2195,3 +2195,15 @@ For nested loops, you can specify a numeric argument to skip the iteration of th
     continue n
 ```
 Where **`n`** specifies the number of nested loops to skip.
+## Example : Using `continue` in a Simple Loop
+```bash
+    #!/bin/bash
+
+    for number in {1..5}
+    do
+        if [ $number -eq 3 ]; then
+            continue  # Skip the current iteration when number equals 3
+        fi
+        echo "Number: $number"
+    done
+```
