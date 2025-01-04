@@ -2133,3 +2133,15 @@ Optionally we can specify a numeric argument to exit from nested loops :
     break n
 ```
 Where **`n`** specifies the number of nested loops to exit.
+## Example 01 : Using `break` in a Simple Loop
+```bash
+    #!/bin/bash
+
+    for number in {1..10}
+    do
+        if [ $number -eq 5 ]; then
+            break  # Exit the loop when number equals 5
+        fi
+        echo "Number: $number"
+    done
+```
