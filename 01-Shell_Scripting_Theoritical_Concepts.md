@@ -2311,3 +2311,18 @@ We can also nest **`while`**, **`until`** or any combination of loop types.
     Outer loop: 2, Inner loop: 2
     Outer loop: 2, Inner loop: 3
 ```
+## Example 04 : Using `break` in Nested Loops
+```bash
+    #!/bin/bash
+
+    for i in {1..3}  # Outer loop
+    do
+        for j in {1..3}  # Inner loop
+        do
+            if [ $j -eq 2 ]; then
+                break  # Break out of the inner loop
+            fi
+            echo "i: $i, j: $j"
+        done
+    done
+```
