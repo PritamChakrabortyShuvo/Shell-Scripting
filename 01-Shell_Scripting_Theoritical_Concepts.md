@@ -2173,3 +2173,11 @@ Where **`n`** specifies the number of nested loops to exit.
     Counter: 3
     Counter: 4
 ```
+### Explanation:
+1. **break Without Argument**:
+- Exits the current loop only.
+2. **break n**:
+- Exits n levels of nested loops.
+3. **Use Cases**:
+- Useful when you want to stop loop execution based on a condition.
+- Helps in optimizing loop behavior by preventing unnecessary iterations.
