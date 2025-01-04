@@ -2228,4 +2228,14 @@ Where **`n`** specifies the number of nested loops to skip.
 3. For nested loops **`continue n`** allows control over which loop to continue.
 # Nested Loops in Shell Scripting
 Nested loops are loops placed inside another loop. They are used to handle scenarios where iterations depend on multiple variables or conditions, such as traversing a matrix, processing combinations, or managing hierarchical data.
-
+## Syntax 
+```bash
+    for var1 in list1
+    do
+        for var2 in list2
+        do
+            # Inner loop code
+        done
+    done
+```
+We can also nest **`while`**, **`until`** or any combination of loop types.
