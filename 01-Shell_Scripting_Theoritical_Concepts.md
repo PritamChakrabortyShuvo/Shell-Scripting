@@ -2184,3 +2184,14 @@ Where **`n`** specifies the number of nested loops to exit.
 ## Key Points
 1. **`break`** is only used in loops (**`for`**, **`while`**, **`until`**).
 2. When used in nested loops, specify a number to control how many levels of loops to exit.
+# Continue Statement in Shell Scripting
+The **`continue`** statement is used to skip the remaining part of the current iteration of a loop & move to the next iteration. Unlike **`break`**, which exits the loop entirely **`continue`** only affects the current iteration & does not terminate the loop.
+## Syntax
+```bash
+    continue
+```
+For nested loops, you can specify a numeric argument to skip the iteration of the specified loop level :
+```bash
+    continue n
+```
+Where **`n`** specifies the number of nested loops to skip.
