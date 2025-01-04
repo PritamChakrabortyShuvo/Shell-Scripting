@@ -2343,3 +2343,5 @@ We can also nest **`while`**, **`until`** or any combination of loop types.
 - Processing tables or grids.
 - Iterating through combinations of two lists.
 - Handling hierarchical data like directories & files.
+# Select in Shell Scripting
+The **`select`** command in shell scripting is used to create a menu-driven interface. It allows users to select options from a list and is particularly useful for creating interactive scripts.
