@@ -2122,3 +2122,5 @@ Both **`$@`** & **`$*`** are used to represent all the command-line arguments pa
 ## Key Recommendation
 1. Use **`"$@"`** when passing or iterating over arguments, as it preserves the structure of arguments.
 2. Use **`"$*"`** only when you want all arguments as a single string.
+# Break Statement in Shell Scripting
+The **`break`** statement is used to exit a loop prematurely in shell scripting. When a break statement is encountered the execution immediately jumps out of the loop skipping any remaining iterations.
