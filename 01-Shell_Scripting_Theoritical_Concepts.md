@@ -2459,3 +2459,6 @@ The **`select`** command in shell scripting is used to create a menu-driven inte
 - Useful for menu-driven scripts, file management, or any scenario requiring user interaction.
 # Debugging Shell Scripts & Exiting on Errors
 When writing shell scripts, it's important to debug and handle errors properly to avoid unexpected behavior. We can configure the script to exit immediately if any command fails using the **`set -e`** option or by checking the exit status of commands.
+## Key Command **`set -e`**
+- The **`set -e`** option causes the script to exit immediately if a command returns a non-zero exit status (indicating an error).
+- This is useful for debugging and ensuring the script halts on failure instead of continuing with incorrect assumptions.
