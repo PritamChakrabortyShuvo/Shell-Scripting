@@ -2215,10 +2215,10 @@ Where **`n`** specifies the number of nested loops to skip.
     Number: 5
 ```
 # Explanation:
-1. continue Without Argument:
+1. **`continue`** Without Argument:
 - Skips the current iteration of the loop and moves to the next one.
-2. continue n:
-- Skips the current iteration of the specified loop level (n).
+2. **`continue n`**:
+- Skips the current iteration of the specified loop level (**`n`**).
 3. Use Cases:
 - Ideal for scenarios where you want to skip certain conditions or values without breaking the loop.
 - Helps in handling specific cases without terminating the loop prematurely.
