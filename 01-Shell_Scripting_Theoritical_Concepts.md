@@ -2448,3 +2448,12 @@ The **`select`** command in shell scripting is used to create a menu-driven inte
         esac
     done
 ```
+## Key Points
+1. **Numbered Options**
+- The **`select`** command automatically assigns numbers to options in the list.
+2. **Infinite Loop**
+- By default, **`select`** runs in an infinite loop until you explicitly break it using **`break`**.
+3. **Input Handling**
+- If an invalid number is entered, the **`variable_name`** is empty, and the script can handle it with a message.
+4. **Practical Use**
+- Useful for menu-driven scripts, file management, or any scenario requiring user interaction.
