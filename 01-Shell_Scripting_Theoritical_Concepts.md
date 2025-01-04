@@ -2279,3 +2279,12 @@ We can also nest **`while`**, **`until`** or any combination of loop types.
         ((outer++))
     done
 ```
+> **Output**
+```output
+    Outer loop: 1, Inner loop: 1
+    Outer loop: 1, Inner loop: 2
+    Outer loop: 2, Inner loop: 1
+    Outer loop: 2, Inner loop: 2
+    Outer loop: 3, Inner loop: 1
+    Outer loop: 3, Inner loop: 2
+```
