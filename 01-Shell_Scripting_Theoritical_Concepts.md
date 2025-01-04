@@ -2239,3 +2239,15 @@ Nested loops are loops placed inside another loop. They are used to handle scena
     done
 ```
 We can also nest **`while`**, **`until`** or any combination of loop types.
+## Example 01 : Nested `for` Loop
+```bash
+    #!/bin/bash
+
+    for i in {1..3}  # Outer loop
+    do
+        for j in {1..3}  # Inner loop
+        do
+            echo "Outer loop: $i, Inner loop: $j"
+        done
+    done
+```
