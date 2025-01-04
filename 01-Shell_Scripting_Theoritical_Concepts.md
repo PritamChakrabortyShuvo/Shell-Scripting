@@ -2457,3 +2457,5 @@ The **`select`** command in shell scripting is used to create a menu-driven inte
 - If an invalid number is entered, the **`variable_name`** is empty, and the script can handle it with a message.
 4. **Practical Use**
 - Useful for menu-driven scripts, file management, or any scenario requiring user interaction.
+# Debugging Shell Scripts & Exiting on Errors
+When writing shell scripts, it's important to debug and handle errors properly to avoid unexpected behavior. We can configure the script to exit immediately if any command fails using the **`set -e`** option or by checking the exit status of commands.
