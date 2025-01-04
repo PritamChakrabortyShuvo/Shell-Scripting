@@ -2499,3 +2499,6 @@ The **`set -x`** option enables a debugging mode that prints each command and it
     + mkdir /some/nonexistent/path
     mkdir: cannot create directory '/some/nonexistent/path': No such file or directory
 ```
+## Key Options
+1. **`set -e`**: Exit on error.
+2. **`set -x`**: Debugging mode (trace each command).
