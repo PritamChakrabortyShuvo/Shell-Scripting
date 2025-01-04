@@ -2181,3 +2181,6 @@ Where **`n`** specifies the number of nested loops to exit.
 3. **Use Cases**:
 - Useful when you want to stop loop execution based on a condition.
 - Helps in optimizing loop behavior by preventing unnecessary iterations.
+## Key Points
+1. **`break`** is only used in loops (**`for`**, **`while`**, **`until`**).
+2. When used in nested loops, specify a number to control how many levels of loops to exit.
