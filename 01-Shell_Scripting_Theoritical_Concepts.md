@@ -2145,3 +2145,10 @@ Where **`n`** specifies the number of nested loops to exit.
         echo "Number: $number"
     done
 ```
+> **Output**
+```output
+    Number: 1
+    Number: 2
+    Number: 3
+    Number: 4
+```
