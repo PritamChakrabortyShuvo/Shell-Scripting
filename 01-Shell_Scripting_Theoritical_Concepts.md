@@ -2223,6 +2223,6 @@ Where **`n`** specifies the number of nested loops to skip.
 - Ideal for scenarios where you want to skip certain conditions or values without breaking the loop.
 - Helps in handling specific cases without terminating the loop prematurely.
 ## Key POints
-1. continue works with all loop types (for, while, until).
+1. **`continue`** works with all loop types (**`for`**, **`while`**, **`until`**).
 2. It skips the rest of the current iteration but does not exit the loop.
-3. For nested loops, continue n allows control over which loop to continue.
+3. For nested loops **`continue n`** allows control over which loop to continue.
