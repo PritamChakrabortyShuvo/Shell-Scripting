@@ -2166,3 +2166,10 @@ Where **`n`** specifies the number of nested loops to exit.
         ((counter++))
     done
 ```
+> **Output**
+```output
+    Counter: 1
+    Counter: 2
+    Counter: 3
+    Counter: 4
+```
