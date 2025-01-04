@@ -2207,3 +2207,10 @@ Where **`n`** specifies the number of nested loops to skip.
         echo "Number: $number"
     done
 ```
+> **Output**
+```output
+    Number: 1
+    Number: 2
+    Number: 4
+    Number: 5
+```
