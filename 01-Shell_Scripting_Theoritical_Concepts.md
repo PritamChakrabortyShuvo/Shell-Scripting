@@ -2479,3 +2479,16 @@ When writing shell scripts, it's important to debug and handle errors properly t
 
     echo "This line will not execute because of the error above."
 ```
+### Explanation
+- If the **`mkdir`** command fails, the script exits immediately.
+- Any lines after the failed command will not execute.
+## Example 02 : Debugging with `set -x`
+The **`set -x`** option enables a debugging mode that prints each command and its arguments as they are executed.
+```bash
+    #!/bin/bash
+    set -ex  # Enable debugging and immediate exit on error
+
+    echo "Starting script..."
+    mkdir /some/nonexistent/path  # This will fail
+    echo "This line will not execute."
+```
