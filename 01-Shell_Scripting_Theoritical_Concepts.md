@@ -2462,3 +2462,20 @@ When writing shell scripts, it's important to debug and handle errors properly t
 ## Key Command **`set -e`**
 - The **`set -e`** option causes the script to exit immediately if a command returns a non-zero exit status (indicating an error).
 - This is useful for debugging and ensuring the script halts on failure instead of continuing with incorrect assumptions.
+## Example 01 : Exit on Error Using **`set -e`**
+```bash
+    #!/bin/bash
+    set -e  # Enable immediate exit on error
+
+    echo "Creating a directory..."
+    mkdir /some/nonexistent/path  # This will fail
+
+    echo "This line will not execute because of the error above."
+    #!/bin/bash
+    set -e  # Enable immediate exit on error
+
+    echo "Creating a directory..."
+    mkdir /some/nonexistent/path  # This will fail
+
+    echo "This line will not execute because of the error above."
+```
