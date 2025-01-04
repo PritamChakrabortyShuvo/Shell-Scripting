@@ -2288,3 +2288,17 @@ We can also nest **`while`**, **`until`** or any combination of loop types.
     Outer loop: 3, Inner loop: 1
     Outer loop: 3, Inner loop: 2
 ```
+## Example 03 : Nested `for` & `while` Loop
+```bash
+    #!/bin/bash
+
+    for i in {1..2}  # Outer loop
+    do
+        inner=1
+        while [ $inner -le 3 ]  # Inner loop
+        do
+            echo "Outer loop: $i, Inner loop: $inner"
+            ((inner++))
+        done
+    done
+```
