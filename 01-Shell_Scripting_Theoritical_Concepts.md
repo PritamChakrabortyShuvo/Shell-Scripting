@@ -2152,3 +2152,17 @@ Where **`n`** specifies the number of nested loops to exit.
     Number: 3
     Number: 4
 ```
+## Example 02 : Using `break` in a `while` Loop
+```bash
+    #!/bin/bash
+
+    counter=1
+    while [ $counter -le 10 ]
+    do
+        if [ $counter -eq 5 ]; then
+            break  # Exit the loop when counter equals 5
+        fi
+        echo "Counter: $counter"
+        ((counter++))
+    done
+```
