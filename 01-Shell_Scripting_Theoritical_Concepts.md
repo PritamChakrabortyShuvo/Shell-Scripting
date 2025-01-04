@@ -2173,7 +2173,7 @@ Where **`n`** specifies the number of nested loops to exit.
     Counter: 3
     Counter: 4
 ```
-### Explanation:
+### Explanation
 1. **`break` Without Argument**:
 - Exits the current loop only.
 2. **`break n`**:
@@ -2214,7 +2214,7 @@ Where **`n`** specifies the number of nested loops to skip.
     Number: 4
     Number: 5
 ```
-# Explanation:
+### Explanation:
 1. **`continue`** Without Argument:
 - Skips the current iteration of the loop and moves to the next one.
 2. **`continue n`**:
@@ -2222,3 +2222,7 @@ Where **`n`** specifies the number of nested loops to skip.
 3. Use Cases:
 - Ideal for scenarios where you want to skip certain conditions or values without breaking the loop.
 - Helps in handling specific cases without terminating the loop prematurely.
+## Key POints
+1. continue works with all loop types (for, while, until).
+2. It skips the rest of the current iteration but does not exit the loop.
+3. For nested loops, continue n allows control over which loop to continue.
