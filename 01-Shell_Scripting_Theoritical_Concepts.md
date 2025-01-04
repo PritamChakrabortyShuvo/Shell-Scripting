@@ -2226,3 +2226,6 @@ Where **`n`** specifies the number of nested loops to skip.
 1. **`continue`** works with all loop types (**`for`**, **`while`**, **`until`**).
 2. It skips the rest of the current iteration but does not exit the loop.
 3. For nested loops **`continue n`** allows control over which loop to continue.
+# Nested Loops in Shell Scripting
+Nested loops are loops placed inside another loop. They are used to handle scenarios where iterations depend on multiple variables or conditions, such as traversing a matrix, processing combinations, or managing hierarchical data.
+
