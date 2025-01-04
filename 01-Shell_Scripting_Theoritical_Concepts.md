@@ -2124,3 +2124,12 @@ Both **`$@`** & **`$*`** are used to represent all the command-line arguments pa
 2. Use **`"$*"`** only when you want all arguments as a single string.
 # Break Statement in Shell Scripting
 The **`break`** statement is used to exit a loop prematurely in shell scripting. When a break statement is encountered the execution immediately jumps out of the loop skipping any remaining iterations.
+## Syntax
+```bash
+    break
+```
+Optionally we can specify a numeric argument to exit from nested loops :
+```bash
+    break n
+```
+Where **`n`** specifies the number of nested loops to exit.
