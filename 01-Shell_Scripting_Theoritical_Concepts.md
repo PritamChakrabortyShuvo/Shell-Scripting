@@ -2504,3 +2504,11 @@ The **`set -x`** option enables a debugging mode that prints each command and it
 2. **`set -x`**: Debugging mode (trace each command).
 # Run a `.sh` File as a Command
 To run a **`.sh`** file like a regular command, we need to follow these steps :
+## Step 01: Write the Shell Script
+Create the **`.sh`** file & add our script. For example:
+```bash
+    #!/bin/bash
+    
+    echo "Hello, this is a custom command!"
+```
+Save this file, e.g., as **`mycommand.sh`**.
