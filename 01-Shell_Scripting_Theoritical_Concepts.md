@@ -2523,4 +2523,12 @@ To run the script as a command from anywhere, move it to a directory included in
     sudo mv mycommand.sh /usr/local/bin/mycommand
 ```
 **Note -** Rename it to **`mycommand`** (optional) so we can run it without the **`.sh`** extension.
-
+## Step 4: Run the Script as a Command
+Now, we can run it like this from anywhere :
+```bash
+    mycommand
+```
+> **Output**
+```output
+    Hello, this is a custom command!
+```
