@@ -2502,3 +2502,5 @@ The **`set -x`** option enables a debugging mode that prints each command and it
 ## Key Options
 1. **`set -e`**: Exit on error.
 2. **`set -x`**: Debugging mode (trace each command).
+# Run a `.sh` File as a Command
+To run a **`.sh`** file like a regular command, we need to follow these steps :
