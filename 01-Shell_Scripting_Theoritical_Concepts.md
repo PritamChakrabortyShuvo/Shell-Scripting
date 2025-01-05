@@ -2512,3 +2512,8 @@ Create the **`.sh`** file & add our script. For example:
     echo "Hello, this is a custom command!"
 ```
 Save this file, e.g., as **`mycommand.sh`**.
+## Step 02: Make the File Executable
+Run the following command to give execution permission:
+```bash
+    chmod +x mycommand.sh
+```
