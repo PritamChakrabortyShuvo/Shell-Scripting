@@ -2532,3 +2532,9 @@ Now, we can run it like this from anywhere :
 ```output
     Hello, this is a custom command!
 ```
+## Key Notes
+1. Ensure the script starts with #!/bin/bash or the appropriate shebang.
+2. Place the script in a directory included in the $PATH variable (e.g., /usr/local/bin or /home/username/bin).
+3. Use chmod +x to make the script executable.
+
+Now, .sh script behaves just like any other command!
