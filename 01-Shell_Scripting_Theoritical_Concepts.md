@@ -2517,3 +2517,10 @@ Run the following command to give execution permission:
 ```bash
     chmod +x mycommand.sh
 ```
+## Step 3: Move the File to a Directory in `$PATH`
+To run the script as a command from anywhere, move it to a directory included in the PATH environment variable (e.g., **`/usr/local/bin`**).
+```bash
+    sudo mv mycommand.sh /usr/local/bin/mycommand
+```
+**Note -** Rename it to **`mycommand`** (optional) so we can run it without the **`.sh`** extension.
+
